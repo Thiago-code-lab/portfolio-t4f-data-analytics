@@ -1,0 +1,77 @@
+{
+  "recebido_em": "2026-11-17",
+  "pdf": {
+    "arquivo": "docs/referencias/projeto-big-data-t4f-publico.pdf",
+    "paginas": 30,
+    "identificadores_ocultados": 10,
+    "sha256": "8bd2feb18709b05300fb968f5130497c2818a4529aae5f5137c38597324b9c0f",
+    "tratamento": "Somente matrículas ocultadas; conteúdo acadêmico e figuras preservados. Não é especificação do software executado."
+  },
+  "zip": {
+    "arquivo": "anexos/bases_de_dados_T4F.zip",
+    "sha256": "37a1094864c903f1ea074baf55bec664e1c3b4255cf6c116769c14575c6d69a8",
+    "conteudo": [
+      {
+        "arquivo": "LEIA-ME.md",
+        "bytes": 3038,
+        "sha256": "f16634227be14c1a094603773331871dcb43b5c50b2edb984b17b1f525c5f2e0"
+      },
+      {
+        "arquivo": "bases_de_dados_T4F.xlsx",
+        "bytes": 227645,
+        "sha256": "91c24cc8bf38871110e10185b9bc0b7fec54c165f8cfb8aa3d7ba015d9d09a32"
+      },
+      {
+        "arquivo": "gen_bases.py",
+        "bytes": 10818,
+        "sha256": "22863511942bb3975aa971afb1d083ba39217fc1b860416654614a51125c1a41"
+      },
+      {
+        "arquivo": "real_clima_santiago_normais_1991_2020.csv",
+        "bytes": 1849,
+        "sha256": "14702aed536a2b0e98cda8dabcb5b3a327f8a03de6651120faa483528e9f2fb7"
+      },
+      {
+        "arquivo": "real_feriados_2026_2027.csv",
+        "bytes": 10842,
+        "sha256": "33c835681bf378814eefb238f2a77c5ab25ca921d1aa1718da349db0ef93660b"
+      },
+      {
+        "arquivo": "real_oficina_peregrino_2025_brasil_por_caminho.csv",
+        "bytes": 759,
+        "sha256": "46efa0c14bfdba9ad54119109b59d4b0bdd3bcf034aadb2383644c3cbc4793dd"
+      },
+      {
+        "arquivo": "real_oficina_peregrino_2025_mensal.csv",
+        "bytes": 1306,
+        "sha256": "beefe28cbf97eb26f6b941a87273cc7e578f33bf82767fe03d418b1822f2862e"
+      },
+      {
+        "arquivo": "sintetico_clientes.csv",
+        "bytes": 14832,
+        "sha256": "0da076f81bc9035b1c4d605a20e59e5f2fa2dd7afc7c46616242a82d44fbea10"
+      },
+      {
+        "arquivo": "sintetico_feedbacks_nps.csv",
+        "bytes": 15540,
+        "sha256": "1c69c695e312cfbc42e153b86907f2084ab2e69871da59e659e592bcb1014bbb"
+      },
+      {
+        "arquivo": "sintetico_financeiro_mensal.csv",
+        "bytes": 602,
+        "sha256": "17555a73195a59453aab2a9f2ade0fc3fa044decff0d5a4352bf266e09aa2866"
+      },
+      {
+        "arquivo": "sintetico_ocupacao_hospedagens.csv",
+        "bytes": 244075,
+        "sha256": "bbbf81a575842d467e7d3be2c35b1a06307820030efe05bccae00cb462fd3b5d"
+      },
+      {
+        "arquivo": "sintetico_reservas.csv",
+        "bytes": 50467,
+        "sha256": "0faf202093d8162238e3b26c5f01a76b6857d720ee433870a74c705085f7a969"
+      }
+    ],
+    "natureza": "Pacote fornecido pelo autor: simulação seed 2026 e tabelas externas de referência sem certificação primária."
+  }
+}

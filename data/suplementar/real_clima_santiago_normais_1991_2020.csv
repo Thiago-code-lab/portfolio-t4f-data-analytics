@@ -1,0 +1,13 @@
+﻿local,mes,mes_nome,temp_min_c,temp_max_c,temp_media_c,chuva_mm,dias_de_chuva,horas_sol_dia,umidade_pct,fonte
+Santiago de Compostela (normais 1991-2020),1,Jan,4.1,11.5,7.8,260,16,3.0,87,"Climates to Travel, com base em normais climatológicas 1991-2020"
+Santiago de Compostela (normais 1991-2020),2,Fev,3.9,12.7,8.3,225,14,4.0,82,"Climates to Travel, com base em normais climatológicas 1991-2020"
+Santiago de Compostela (normais 1991-2020),3,Mar,5.2,15.3,10.3,145,13,5.0,78,"Climates to Travel, com base em normais climatológicas 1991-2020"
+Santiago de Compostela (normais 1991-2020),4,Abr,6.3,16.7,11.5,140,14,5.5,78,"Climates to Travel, com base em normais climatológicas 1991-2020"
+Santiago de Compostela (normais 1991-2020),5,Mai,8.7,19.6,14.2,145,14,6.0,78,"Climates to Travel, com base em normais climatológicas 1991-2020"
+Santiago de Compostela (normais 1991-2020),6,Jun,11.2,22.6,16.9,80,8,7.5,77,"Climates to Travel, com base em normais climatológicas 1991-2020"
+Santiago de Compostela (normais 1991-2020),7,Jul,12.9,24.7,18.8,40,5,8.0,77,"Climates to Travel, com base em normais climatológicas 1991-2020"
+Santiago de Compostela (normais 1991-2020),8,Ago,13.3,25.0,19.2,55,5,7.5,77,"Climates to Travel, com base em normais climatológicas 1991-2020"
+Santiago de Compostela (normais 1991-2020),9,Set,11.8,22.9,17.4,125,9,6.0,79,"Climates to Travel, com base em normais climatológicas 1991-2020"
+Santiago de Compostela (normais 1991-2020),10,Out,9.6,18.6,14.1,195,13,4.5,84,"Climates to Travel, com base em normais climatológicas 1991-2020"
+Santiago de Compostela (normais 1991-2020),11,Nov,6.5,14.1,10.3,200,14,3.0,88,"Climates to Travel, com base em normais climatológicas 1991-2020"
+Santiago de Compostela (normais 1991-2020),12,Dez,4.9,12.2,8.5,280,16,2.5,87,"Climates to Travel, com base em normais climatológicas 1991-2020"

@@ -1,0 +1,470 @@
+﻿id_reserva,id_cliente,data_compra,data_viagem,antecedencia_dias,ponto_partida,caminho,duracao_dias,categoria_hospedagem,n_viajantes,valor_eur,forma_pagamento,status,mes_viagem
+149,352,2025-07-30,2026-06-25,330,Porto (central),Português central,11,Standard,3,5432.95,Cartão de crédito,realizada,6
+172,115,2025-08-10,2026-04-07,240,Porto litoral,Português da Costa,12,Standard,2,4034.92,Cartão de crédito,realizada,4
+232,79,2025-08-13,2026-05-14,274,Porto (central),Português central,11,Superior,2,4784.75,Cartão de crédito,realizada,5
+154,286,2025-08-28,2026-06-22,298,Sarria,Francês,7,Standard,2,2193.43,Pix,realizada,6
+452,27,2025-08-30,2026-04-17,230,SJPP,Francês,33,Superior,2,11613.22,Cartão de crédito,realizada,4
+428,59,2025-09-03,2026-06-10,280,Lisboa,Português central,27,Standard,2,7858.66,Cartão de crédito,realizada,6
+153,63,2025-09-10,2026-04-23,225,Astorga,Francês,12,Econômico,2,3203.49,Cartão de crédito,realizada,4
+391,297,2025-09-10,2026-03-18,189,SJPP,Francês,33,Standard,2,9074.58,Cartão de crédito,realizada,3
+267,410,2025-10-06,2026-05-13,219,Tui/Valença,Português central,6,Superior,2,2594.52,Transferência internacional,cancelada,5
+325,376,2025-10-07,2026-05-10,215,Sarria,Francês,7,Superior,1,1506.99,Cartão de crédito,realizada,5
+353,112,2025-10-21,2026-05-24,215,Porto (central),Português central,11,Standard,2,3671.99,Cartão de crédito,cancelada,5
+323,291,2025-10-22,2026-09-17,330,Lisboa,Português central,27,Superior,2,10248.01,Boleto,realizada,9
+203,418,2025-10-28,2026-05-06,190,Lisboa,Português central,27,Superior,2,9987.5,Pix,realizada,5
+453,140,2025-11-04,2026-04-22,169,Astorga,Francês,12,Standard,2,3949.49,Pix,realizada,4
+280,331,2025-11-10,2026-04-10,151,SJPP,Francês,33,Standard,1,4537.19,Cartão de crédito,realizada,4
+321,316,2025-11-12,2026-03-22,130,Porto (central),Português central,11,Econômico,1,1387.28,Pix,realizada,3
+41,49,2025-11-13,2026-04-07,145,Tui/Valença,Português central,6,Standard,2,1982.1,Cartão de crédito,realizada,4
+69,181,2025-11-16,2026-07-08,234,Porto (central),Português central,11,Standard,2,3547.49,Pix,realizada,7
+360,86,2025-11-26,2026-07-20,236,Astorga,Francês,12,Standard,2,3918.55,Transferência internacional,realizada,7
+123,135,2025-12-02,2026-05-06,155,Porto (central),Português central,11,Standard,2,3614.67,Pix,realizada,5
+297,94,2025-12-03,2026-05-14,162,Porto (central),Português central,11,Superior,1,2370.35,Cartão de crédito,cancelada,5
+281,49,2025-12-06,2026-06-13,189,Porto litoral,Português da Costa,12,Superior,4,10464.6,Cartão de crédito,realizada,6
+88,128,2025-12-07,2026-05-05,149,Porto litoral,Português da Costa,12,Econômico,4,6332.07,Boleto,realizada,5
+82,393,2025-12-09,2026-04-19,131,Sarria,Francês,7,Standard,2,2228.22,Pix,realizada,4
+307,289,2025-12-13,2026-09-03,264,Sarria,Francês,7,Standard,1,1120.61,Pix,realizada,9
+132,370,2025-12-18,2026-04-03,106,Porto litoral,Português da Costa,12,Standard,2,4066.13,Cartão de crédito,realizada,4
+384,285,2025-12-19,2026-09-07,262,Lisboa,Português central,27,Econômico,2,5992.73,Cartão de crédito,realizada,9
+334,192,2025-12-19,2026-04-05,107,Sarria,Francês,7,Standard,2,2150.39,Pix,realizada,4
+56,208,2025-12-20,2026-04-12,113,Sarria,Francês,7,Superior,2,2917.56,Cartão de crédito,realizada,4
+440,391,2025-12-21,2026-07-07,198,Porto litoral,Português da Costa,12,Econômico,1,1596.32,Cartão de crédito,realizada,7
+186,64,2025-12-21,2026-04-11,111,Porto (central),Português central,11,Standard,2,3470.37,Pix,realizada,4
+157,308,2025-12-22,2026-05-15,144,Astorga,Francês,12,Standard,3,6030.61,Cartão de crédito,realizada,5
+32,386,2025-12-22,2026-03-05,73,Porto (central),Português central,11,Econômico,1,1460.74,Transferência internacional,realizada,3
+227,61,2025-12-24,2026-05-12,139,SJPP,Francês,33,Standard,2,8822.05,Pix,realizada,5
+62,373,2025-12-24,2026-05-24,151,Porto (central),Português central,11,Econômico,2,2638.39,Pix,realizada,5
+207,25,2025-12-24,2026-04-08,105,Porto litoral,Português da Costa,12,Standard,2,3956.93,Pix,realizada,4
+365,177,2025-12-26,2026-04-05,100,Porto litoral,Português da Costa,12,Econômico,4,6214.91,Pix,realizada,4
+247,91,2025-12-26,2026-05-30,155,Tui/Valença,Português central,6,Econômico,1,755.97,Pix,realizada,5
+230,235,2025-12-26,2026-05-29,154,SJPP,Francês,33,Superior,2,12100.26,Pix,realizada,5
+408,410,2025-12-30,2026-04-01,92,Tui/Valença,Português central,6,Superior,1,1325.97,Cartão de crédito,realizada,4
+72,180,2025-12-30,2026-05-17,138,Tui/Valença,Português central,6,Econômico,3,2317.23,Pix,realizada,5
+124,340,2026-01-01,2026-05-24,143,Sarria,Francês,7,Standard,1,1094.58,Boleto,realizada,5
+279,107,2026-01-01,2026-06-16,166,SJPP,Francês,33,Econômico,4,13927.71,Cartão de crédito,realizada,6
+14,53,2026-01-01,2026-10-23,295,SJPP,Francês,33,Standard,3,13616.08,Cartão de crédito,cancelada,10
+254,410,2026-01-02,2026-04-27,115,Tui/Valença,Português central,6,Standard,1,994.82,Cartão de crédito,realizada,4
+382,165,2026-01-03,2026-06-23,171,Lisboa,Português central,27,Standard,2,7763.16,Cartão de crédito,realizada,6
+309,401,2026-01-04,2026-07-14,191,Lisboa,Português central,27,Standard,1,3966.6,Pix,realizada,7
+378,116,2026-01-05,2026-03-12,66,Astorga,Francês,12,Standard,2,4057.38,Transferência internacional,realizada,3
+235,128,2026-01-05,2026-10-07,275,Porto (central),Português central,11,Econômico,3,4256.71,Cartão de crédito,cancelada,10
+343,328,2026-01-06,2026-04-12,96,Tui/Valença,Português central,6,Standard,4,3918.28,Boleto,realizada,4
+245,193,2026-01-06,2026-05-06,120,Sarria,Francês,7,Standard,2,2273.9,Cartão de crédito,realizada,5
+346,329,2026-01-07,2026-03-04,56,Tui/Valença,Português central,6,Econômico,2,1469.97,Transferência internacional,realizada,3
+439,247,2026-01-07,2026-04-11,94,SJPP,Francês,33,Standard,2,8920.79,Pix,realizada,4
+342,191,2026-01-09,2026-04-02,83,Tui/Valença,Português central,6,Standard,2,1962.87,Pix,realizada,4
+54,189,2026-01-09,2026-05-29,140,SJPP,Francês,33,Standard,2,9114.77,Transferência internacional,realizada,5
+261,41,2026-01-11,2026-05-23,132,SJPP,Francês,33,Econômico,1,3566.08,Pix,realizada,5
+244,119,2026-01-12,2026-06-20,159,Sarria,Francês,7,Econômico,2,1685.89,Cartão de crédito,realizada,6
+299,340,2026-01-13,2026-08-10,209,Porto litoral,Português da Costa,12,Superior,2,5351.74,Pix,realizada,8
+100,376,2026-01-13,2026-05-07,114,SJPP,Francês,33,Standard,3,13297.56,Cartão de crédito,realizada,5
+92,39,2026-01-14,2026-05-08,114,Lisboa,Português central,27,Standard,1,3929.77,Cartão de crédito,realizada,5
+51,235,2026-01-16,2026-05-03,107,Porto litoral,Português da Costa,12,Standard,2,4092.47,Cartão de crédito,realizada,5
+147,152,2026-01-16,2026-03-22,65,Porto (central),Português central,11,Superior,2,4836.88,Pix,realizada,3
+135,177,2026-01-17,2026-03-25,67,Porto (central),Português central,11,Standard,1,1782.68,Cartão de crédito,realizada,3
+317,31,2026-01-17,2026-04-08,81,Porto litoral,Português da Costa,12,Standard,2,3898.15,Cartão de crédito,realizada,4
+188,170,2026-01-18,2026-04-22,94,Sarria,Francês,7,Standard,2,2190.38,Cartão de crédito,realizada,4
+13,43,2026-01-18,2026-03-31,72,Tui/Valença,Português central,6,Superior,2,2627.71,Cartão de crédito,realizada,3
+236,28,2026-01-18,2026-03-11,52,SJPP,Francês,33,Standard,4,18360.9,Cartão de crédito,realizada,3
+191,412,2026-01-19,2026-07-24,186,Porto (central),Português central,11,Superior,2,4644.44,Cartão de crédito,realizada,7
+361,40,2026-01-20,2026-04-23,93,SJPP,Francês,33,Standard,2,9321.87,Cartão de crédito,realizada,4
+389,39,2026-01-21,2026-04-26,95,Tui/Valença,Português central,6,Standard,2,2002.1,Pix,realizada,4
+464,408,2026-01-22,2026-06-01,130,SJPP,Francês,33,Standard,1,4482.6,Pix,realizada,6
+105,167,2026-01-25,2026-04-05,70,Astorga,Francês,12,Econômico,1,1567.34,Pix,realizada,4
+35,242,2026-01-25,2026-05-14,109,Sarria,Francês,7,Standard,2,2232.5,Cartão de crédito,cancelada,5
+178,273,2026-01-27,2026-09-20,236,Lisboa,Português central,27,Standard,2,7699.25,Transferência internacional,realizada,9
+405,402,2026-01-28,2026-05-11,103,Porto (central),Português central,11,Standard,1,1863.0,Cartão de crédito,realizada,5
+46,249,2026-01-28,2026-03-31,62,Sarria,Francês,7,Econômico,3,2623.94,Pix,realizada,3
+344,58,2026-01-30,2026-05-15,105,Porto (central),Português central,11,Standard,3,5500.01,Transferência internacional,realizada,5
+133,159,2026-01-31,2026-04-21,80,Porto litoral,Português da Costa,12,Standard,2,3991.14,Pix,realizada,4
+390,241,2026-02-01,2026-04-30,88,Porto (central),Português central,11,Econômico,2,2795.98,Cartão de crédito,realizada,4
+199,243,2026-02-02,2026-04-13,70,Sarria,Francês,7,Superior,2,2915.25,Boleto,realizada,4
+140,132,2026-02-02,2026-05-23,110,Sarria,Francês,7,Standard,1,1134.45,Cartão de crédito,realizada,5
+112,134,2026-02-03,2026-04-02,58,Tui/Valença,Português central,6,Standard,2,1928.18,Boleto,realizada,4
+34,347,2026-02-03,2026-08-28,206,Porto litoral,Português da Costa,12,Standard,2,4143.05,Pix,realizada,8
+209,57,2026-02-03,2026-03-15,40,Sarria,Francês,7,Superior,2,2897.02,Cartão de crédito,realizada,3
+170,129,2026-02-05,2026-05-07,91,Porto (central),Português central,11,Standard,1,1764.3,Cartão de crédito,realizada,5
+136,292,2026-02-08,2026-05-20,101,Sarria,Francês,7,Standard,2,2177.55,Cartão de crédito,realizada,5
+144,292,2026-02-09,2026-05-22,102,Tui/Valença,Português central,6,Econômico,2,1578.13,Cartão de crédito,realizada,5
+412,40,2026-02-10,2026-07-06,146,Tui/Valença,Português central,6,Econômico,2,1533.68,Cartão de crédito,realizada,7
+115,41,2026-02-10,2026-08-14,185,Porto litoral,Português da Costa,12,Econômico,4,6221.1,Cartão de crédito,realizada,8
+315,105,2026-02-10,2026-07-14,154,Tui/Valença,Português central,6,Superior,2,2614.0,Cartão de crédito,realizada,7
+225,353,2026-02-11,2026-06-28,137,Porto litoral,Português da Costa,12,Standard,1,1969.88,Cartão de crédito,realizada,6
+182,318,2026-02-12,2026-05-14,91,Tui/Valença,Português central,6,Econômico,1,769.64,Transferência internacional,realizada,5
+260,234,2026-02-12,2026-07-08,146,Porto (central),Português central,11,Standard,2,3647.65,Boleto,realizada,7
+83,387,2026-02-13,2026-04-11,57,Porto (central),Português central,11,Econômico,3,4276.39,Cartão de crédito,realizada,4
+358,36,2026-02-13,2026-05-10,86,Porto litoral,Português da Costa,12,Standard,2,4083.92,Pix,realizada,5
+364,91,2026-02-13,2026-08-11,179,Tui/Valença,Português central,6,Standard,1,999.64,Transferência internacional,realizada,8
+300,269,2026-02-15,2026-04-26,70,Porto litoral,Português da Costa,12,Standard,1,1946.24,Cartão de crédito,realizada,4
+341,179,2026-02-15,2026-05-07,81,Porto litoral,Português da Costa,12,Standard,2,4053.06,Transferência internacional,realizada,5
+57,379,2026-02-16,2026-05-10,83,Sarria,Francês,7,Standard,2,2130.78,Boleto,realizada,5
+438,146,2026-02-16,2026-04-02,45,Lisboa,Português central,27,Standard,1,3952.13,Cartão de crédito,realizada,4
+214,399,2026-02-16,2026-04-28,71,Astorga,Francês,12,Standard,1,2009.58,Cartão de crédito,realizada,4
+89,57,2026-02-17,2026-06-15,118,Astorga,Francês,12,Econômico,4,6401.06,Pix,realizada,6
+127,400,2026-02-18,2026-05-21,92,Tui/Valença,Português central,6,Econômico,1,786.74,Boleto,realizada,5
+283,327,2026-02-18,2026-10-01,225,Porto litoral,Português da Costa,12,Econômico,2,3160.25,Cartão de crédito,realizada,10
+313,418,2026-02-19,2026-05-29,99,Sarria,Francês,7,Superior,4,5733.3,Pix,realizada,5
+288,375,2026-02-19,2026-07-05,136,Porto litoral,Português da Costa,12,Econômico,1,1584.61,Pix,realizada,7
+270,177,2026-02-20,2026-05-17,86,Tui/Valença,Português central,6,Standard,2,2030.89,Pix,realizada,5
+67,393,2026-02-20,2026-05-17,86,Sarria,Francês,7,Standard,2,2183.54,Transferência internacional,realizada,5
+457,401,2026-02-21,2026-04-04,42,SJPP,Francês,33,Superior,2,11927.66,Cartão de crédito,realizada,4
+49,165,2026-02-21,2026-05-31,99,Tui/Valença,Português central,6,Standard,2,2099.7,Cartão de crédito,realizada,5
+158,80,2026-02-21,2026-05-10,78,Tui/Valença,Português central,6,Standard,2,2047.48,Cartão de crédito,realizada,5
+466,138,2026-02-21,2026-06-03,102,Sarria,Francês,7,Superior,2,2914.08,Cartão de crédito,realizada,6
+258,285,2026-02-22,2026-10-13,233,Sarria,Francês,7,Standard,4,4289.36,Pix,cancelada,10
+192,336,2026-02-22,2026-06-09,107,SJPP,Francês,33,Standard,2,9139.61,Boleto,cancelada,6
+168,397,2026-02-22,2026-06-12,110,Sarria,Francês,7,Standard,2,2155.72,Pix,realizada,6
+6,11,2026-02-24,2026-06-20,116,Astorga,Francês,12,Superior,4,10273.82,Transferência internacional,realizada,6
+352,63,2026-02-24,2026-05-12,77,Sarria,Francês,7,Standard,2,2244.83,Transferência internacional,realizada,5
+366,242,2026-02-24,2026-04-30,65,Porto litoral,Português da Costa,12,Standard,2,4088.64,Cartão de crédito,cancelada,4
+357,146,2026-02-26,2026-05-05,68,Sarria,Francês,7,Standard,1,1066.86,Cartão de crédito,realizada,5
+175,56,2026-02-27,2026-08-11,165,Porto (central),Português central,11,Standard,3,5423.16,Cartão de crédito,cancelada,8
+289,198,2026-02-27,2026-06-13,106,SJPP,Francês,33,Standard,2,9146.88,Cartão de crédito,realizada,6
+430,391,2026-02-27,2026-05-06,68,Lisboa,Português central,27,Standard,2,7606.36,Pix,realizada,5
+417,414,2026-02-28,2026-09-20,204,Sarria,Francês,7,Econômico,2,1710.74,Cartão de crédito,realizada,9
+421,18,2026-02-28,2026-05-09,70,Porto litoral,Português da Costa,12,Econômico,4,6211.44,Cartão de crédito,realizada,5
+310,304,2026-02-28,2026-05-01,62,Porto (central),Português central,11,Econômico,2,2780.15,Transferência internacional,realizada,5
+208,69,2026-02-28,2026-05-09,70,SJPP,Francês,33,Econômico,2,6979.73,Pix,cancelada,5
+185,175,2026-02-28,2026-07-18,140,Sarria,Francês,7,Standard,2,2161.39,Pix,realizada,7
+347,256,2026-02-28,2026-06-07,99,Porto (central),Português central,11,Standard,2,3567.41,Cartão de crédito,cancelada,6
+407,314,2026-02-28,2026-05-13,74,SJPP,Francês,33,Standard,2,9046.91,Cartão de crédito,realizada,5
+200,341,2026-03-01,2026-04-26,56,Sarria,Francês,7,Standard,1,1071.69,Boleto,realizada,4
+454,175,2026-03-01,2026-06-11,102,Porto (central),Português central,11,Econômico,2,2869.26,Cartão de crédito,realizada,6
+231,49,2026-03-03,2026-07-11,130,Porto (central),Português central,11,Superior,3,7294.38,Transferência internacional,realizada,7
+246,210,2026-03-05,2026-03-31,26,Sarria,Francês,7,Econômico,1,859.33,Cartão de crédito,realizada,3
+445,227,2026-03-05,2026-06-03,90,Tui/Valença,Português central,6,Econômico,2,1557.23,Cartão de crédito,realizada,6
+130,99,2026-03-06,2026-06-30,116,Porto litoral,Português da Costa,12,Econômico,2,3182.51,Cartão de crédito,realizada,6
+388,337,2026-03-07,2026-07-02,117,Porto litoral,Português da Costa,12,Standard,2,3960.69,Cartão de crédito,realizada,7
+36,211,2026-03-07,2026-04-28,52,Porto (central),Português central,11,Econômico,1,1404.33,Cartão de crédito,realizada,4
+396,21,2026-03-08,2026-04-17,40,Tui/Valença,Português central,6,Econômico,2,1589.42,Boleto,realizada,4
+278,175,2026-03-08,2026-04-28,51,Astorga,Francês,12,Standard,2,3928.41,Cartão de crédito,realizada,4
+276,378,2026-03-09,2026-08-10,154,SJPP,Francês,33,Superior,2,11755.9,Cartão de crédito,realizada,8
+78,297,2026-03-10,2026-06-23,105,Lisboa,Português central,27,Standard,3,11726.4,Cartão de crédito,realizada,6
+217,316,2026-03-10,2026-05-09,60,Astorga,Francês,12,Econômico,2,3063.01,Cartão de crédito,realizada,5
+311,244,2026-03-10,2026-07-12,124,Sarria,Francês,7,Standard,2,2134.67,Transferência internacional,realizada,7
+37,47,2026-03-11,2026-09-10,183,Porto (central),Português central,11,Standard,2,3504.32,Pix,cancelada,9
+329,207,2026-03-11,2026-05-08,58,Porto litoral,Português da Costa,12,Econômico,2,3106.02,Cartão de crédito,realizada,5
+340,45,2026-03-12,2026-09-20,192,Porto litoral,Português da Costa,12,Standard,3,5954.83,Pix,realizada,9
+431,120,2026-03-12,2026-09-04,176,Porto (central),Português central,11,Standard,1,1796.88,Pix,realizada,9
+45,161,2026-03-13,2026-05-13,61,Tui/Valença,Português central,6,Econômico,2,1578.25,Pix,realizada,5
+393,192,2026-03-13,2026-05-01,49,Porto litoral,Português da Costa,12,Superior,2,5277.26,Pix,realizada,5
+241,263,2026-03-14,2026-07-29,137,Sarria,Francês,7,Superior,4,5935.31,Cartão de crédito,realizada,7
+102,185,2026-03-14,2026-07-03,111,SJPP,Francês,33,Econômico,2,7069.78,Cartão de crédito,realizada,7
+206,145,2026-03-15,2026-09-25,194,Sarria,Francês,7,Econômico,4,3536.13,Cartão de crédito,realizada,9
+355,271,2026-03-15,2026-06-12,89,Porto (central),Português central,11,Superior,2,4637.72,Pix,realizada,6
+264,110,2026-03-15,2026-06-15,92,Porto litoral,Português da Costa,12,Standard,2,4026.08,Cartão de crédito,realizada,6
+139,268,2026-03-15,2026-06-17,94,Lisboa,Português central,27,Standard,2,7652.44,Pix,realizada,6
+402,104,2026-03-15,2026-05-22,68,Lisboa,Português central,27,Superior,2,10472.61,Cartão de crédito,realizada,5
+383,382,2026-03-15,2026-04-23,39,Porto litoral,Português da Costa,12,Econômico,2,3146.93,Pix,realizada,4
+420,219,2026-03-15,2026-05-10,56,Porto (central),Português central,11,Superior,1,2418.78,Cartão de crédito,realizada,5
+179,140,2026-03-16,2026-05-14,59,Lisboa,Português central,27,Econômico,2,6282.41,Cartão de crédito,realizada,5
+234,242,2026-03-16,2026-05-31,76,Tui/Valença,Português central,6,Econômico,2,1555.77,Pix,realizada,5
+99,316,2026-03-16,2026-07-03,109,Porto litoral,Português da Costa,12,Standard,2,3941.03,Cartão de crédito,realizada,7
+18,379,2026-03-16,2026-08-17,154,Tui/Valença,Português central,6,Econômico,2,1557.74,Cartão de crédito,realizada,8
+373,329,2026-03-18,2026-09-23,189,Porto (central),Português central,11,Superior,2,4783.41,Cartão de crédito,realizada,9
+121,155,2026-03-19,2026-04-08,20,Porto (central),Português central,11,Standard,4,7370.53,Pix,realizada,4
+324,374,2026-03-20,2026-05-09,50,Astorga,Francês,12,Superior,1,2713.03,Cartão de crédito,realizada,5
+19,168,2026-03-21,2026-07-05,106,Sarria,Francês,7,Econômico,2,1772.6,Cartão de crédito,realizada,7
+292,241,2026-03-22,2026-05-02,41,Sarria,Francês,7,Superior,1,1396.14,Cartão de crédito,realizada,5
+216,344,2026-03-24,2026-05-06,43,Astorga,Francês,12,Superior,2,5379.9,Pix,realizada,5
+16,253,2026-03-24,2026-06-28,96,SJPP,Francês,33,Standard,2,8701.15,Pix,realizada,6
+169,236,2026-03-24,2026-06-07,75,Astorga,Francês,12,Standard,2,4007.68,Pix,realizada,6
+48,286,2026-03-24,2026-07-17,115,Porto (central),Português central,11,Standard,2,3696.99,Cartão de crédito,realizada,7
+422,342,2026-03-24,2026-09-09,169,SJPP,Francês,33,Econômico,1,3516.3,Pix,realizada,9
+265,253,2026-03-25,2026-06-15,82,Sarria,Francês,7,Econômico,2,1715.41,Pix,realizada,6
+338,226,2026-03-25,2026-09-27,186,Tui/Valença,Português central,6,Superior,2,2646.1,Boleto,realizada,9
+448,286,2026-03-28,2026-05-12,45,Tui/Valença,Português central,6,Superior,1,1313.65,Cartão de crédito,realizada,5
+305,319,2026-03-28,2026-08-05,130,Tui/Valença,Português central,6,Standard,3,2954.23,Pix,realizada,8
+126,411,2026-03-29,2026-06-13,76,Astorga,Francês,12,Standard,1,1971.05,Cartão de crédito,realizada,6
+468,261,2026-03-30,2026-07-29,121,Lisboa,Português central,27,Superior,4,20515.67,Boleto,realizada,7
+462,229,2026-03-30,2026-05-25,56,Porto (central),Português central,11,Econômico,2,2776.39,Cartão de crédito,realizada,5
+155,333,2026-03-30,2026-06-27,89,Sarria,Francês,7,Superior,2,2859.22,Boleto,realizada,6
+38,225,2026-03-31,2026-08-23,145,Lisboa,Português central,27,Econômico,1,3047.62,Cartão de crédito,cancelada,8
+379,197,2026-03-31,2026-06-04,65,Tui/Valença,Português central,6,Standard,2,1987.07,Boleto,realizada,6
+145,84,2026-03-31,2026-05-28,58,Lisboa,Português central,27,Standard,1,3932.31,Pix,realizada,5
+195,134,2026-04-01,2026-08-09,130,Tui/Valença,Português central,6,Superior,2,2612.03,Cartão de crédito,realizada,8
+284,235,2026-04-02,2026-05-29,57,Sarria,Francês,7,Standard,1,1108.04,Pix,realizada,5
+415,268,2026-04-03,2026-09-13,163,Astorga,Francês,12,Standard,4,8171.53,Pix,realizada,9
+250,361,2026-04-03,2026-05-20,47,Lisboa,Português central,27,Superior,2,10010.89,Cartão de crédito,realizada,5
+403,357,2026-04-04,2026-05-28,54,Porto (central),Português central,11,Superior,4,9510.43,Pix,realizada,5
+446,341,2026-04-04,2026-08-19,137,Sarria,Francês,7,Superior,3,4243.19,Cartão de crédito,realizada,8
+377,102,2026-04-04,2026-08-08,126,Porto litoral,Português da Costa,12,Standard,3,5851.95,Pix,realizada,8
+251,333,2026-04-04,2026-06-14,71,Porto litoral,Português da Costa,12,Econômico,2,3121.86,Cartão de crédito,realizada,6
+409,250,2026-04-05,2026-07-10,96,Sarria,Francês,7,Superior,3,4277.36,Boleto,realizada,7
+166,142,2026-04-05,2026-06-06,62,Astorga,Francês,12,Standard,2,4056.88,Transferência internacional,realizada,6
+180,387,2026-04-06,2026-07-06,91,Porto litoral,Português da Costa,12,Standard,2,4052.63,Cartão de crédito,realizada,7
+266,7,2026-04-06,2026-05-21,45,Lisboa,Português central,27,Superior,2,10408.55,Pix,realizada,5
+1,414,2026-04-07,2026-06-20,74,Astorga,Francês,12,Econômico,3,4727.73,Cartão de crédito,realizada,6
+24,161,2026-04-07,2026-07-31,115,Porto (central),Português central,11,Econômico,1,1397.57,Pix,realizada,7
+84,94,2026-04-08,2026-05-25,47,Sarria,Francês,7,Standard,1,1105.16,Pix,realizada,5
+94,284,2026-04-08,2026-06-13,66,Tui/Valença,Português central,6,Econômico,1,801.87,Pix,realizada,6
+268,89,2026-04-08,2026-06-25,78,Lisboa,Português central,27,Standard,2,7473.63,Pix,realizada,6
+434,132,2026-04-09,2026-07-18,100,Astorga,Francês,12,Standard,2,4019.75,Cartão de crédito,realizada,7
+459,245,2026-04-09,2026-08-23,136,Porto litoral,Português da Costa,12,Standard,1,2020.54,Cartão de crédito,cancelada,8
+272,67,2026-04-09,2026-07-12,94,Astorga,Francês,12,Standard,1,1986.09,Cartão de crédito,realizada,7
+423,31,2026-04-09,2026-05-30,51,Sarria,Francês,7,Econômico,1,853.13,Pix,realizada,5
+70,346,2026-04-10,2026-05-22,42,Porto (central),Português central,11,Standard,4,7281.72,Pix,realizada,5
+255,106,2026-04-10,2026-08-12,124,Porto (central),Português central,11,Standard,1,1799.83,Cartão de crédito,realizada,8
+249,404,2026-04-11,2026-09-07,149,Astorga,Francês,12,Econômico,2,3140.12,Transferência internacional,cancelada,9
+212,160,2026-04-12,2026-07-16,95,Lisboa,Português central,27,Standard,2,7885.88,Boleto,realizada,7
+337,223,2026-04-13,2026-07-25,103,Lisboa,Português central,27,Standard,1,3855.69,Pix,realizada,7
+76,84,2026-04-13,2026-05-28,45,Porto (central),Português central,11,Superior,2,4723.5,Cartão de crédito,cancelada,5
+218,240,2026-04-13,2026-05-27,44,Porto litoral,Português da Costa,12,Econômico,2,3090.95,Cartão de crédito,realizada,5
+58,299,2026-04-14,2026-07-16,93,Sarria,Francês,7,Standard,2,2222.12,Boleto,realizada,7
+435,48,2026-04-14,2026-07-04,81,Tui/Valença,Português central,6,Standard,2,1980.37,Pix,realizada,7
+316,97,2026-04-14,2026-08-17,125,Porto (central),Português central,11,Standard,2,3740.59,Cartão de crédito,cancelada,8
+40,238,2026-04-14,2026-06-12,59,Sarria,Francês,7,Superior,3,4347.97,Cartão de crédito,realizada,6
+204,139,2026-04-14,2026-07-07,84,Sarria,Francês,7,Standard,2,2125.79,Boleto,cancelada,7
+120,194,2026-04-14,2026-06-02,49,Lisboa,Português central,27,Standard,1,3908.16,Pix,realizada,6
+404,355,2026-04-15,2026-06-07,53,SJPP,Francês,33,Standard,2,8499.32,Transferência internacional,realizada,6
+318,182,2026-04-16,2026-07-26,101,Porto litoral,Português da Costa,12,Standard,3,5928.34,Boleto,realizada,7
+374,15,2026-04-17,2026-06-23,67,SJPP,Francês,33,Econômico,2,7034.83,Boleto,realizada,6
+257,187,2026-04-20,2026-05-18,28,Sarria,Francês,7,Superior,2,2900.65,Pix,realizada,5
+159,375,2026-04-20,2026-09-21,154,Astorga,Francês,12,Econômico,4,6306.65,Cartão de crédito,realizada,9
+103,115,2026-04-20,2026-07-31,102,SJPP,Francês,33,Superior,1,5913.63,Transferência internacional,realizada,7
+25,352,2026-04-20,2026-07-14,85,Tui/Valença,Português central,6,Standard,3,3053.95,Cartão de crédito,realizada,7
+113,35,2026-04-21,2026-07-02,72,Sarria,Francês,7,Standard,2,2154.15,Boleto,realizada,7
+326,366,2026-04-21,2026-08-01,102,Porto (central),Português central,11,Econômico,2,2793.98,Cartão de crédito,realizada,8
+465,156,2026-04-21,2026-08-18,119,Porto (central),Português central,11,Superior,2,4884.28,Boleto,realizada,8
+296,315,2026-04-21,2026-07-19,89,Porto (central),Português central,11,Superior,2,4762.2,Transferência internacional,realizada,7
+303,96,2026-04-22,2026-08-12,112,Sarria,Francês,7,Standard,2,2184.94,Cartão de crédito,realizada,8
+442,136,2026-04-22,2026-06-12,51,Astorga,Francês,12,Superior,2,5291.02,Pix,realizada,6
+106,117,2026-04-22,2026-08-09,109,SJPP,Francês,33,Econômico,4,13742.98,Transferência internacional,realizada,8
+274,331,2026-04-22,2026-07-18,87,Porto litoral,Português da Costa,12,Econômico,2,3007.25,Boleto,realizada,7
+306,318,2026-04-23,2026-06-20,58,Sarria,Francês,7,Econômico,4,3442.0,Cartão de crédito,realizada,6
+290,40,2026-04-24,2026-06-05,42,Sarria,Francês,7,Standard,1,1090.63,Pix,realizada,6
+27,247,2026-04-24,2026-06-25,62,SJPP,Francês,33,Superior,1,5710.43,Cartão de crédito,realizada,6
+219,20,2026-04-24,2026-06-05,42,Sarria,Francês,7,Standard,2,2262.7,Boleto,realizada,6
+463,284,2026-04-25,2026-07-29,95,Tui/Valença,Português central,6,Standard,2,1997.91,Pix,realizada,7
+262,235,2026-04-28,2026-09-08,133,Porto litoral,Português da Costa,12,Standard,2,3965.33,Pix,realizada,9
+86,376,2026-04-28,2026-07-04,67,Porto (central),Português central,11,Superior,2,4735.15,Cartão de crédito,realizada,7
+233,367,2026-04-29,2026-07-15,77,Sarria,Francês,7,Econômico,3,2570.45,Pix,realizada,7
+11,274,2026-04-30,2026-07-13,74,Sarria,Francês,7,Superior,2,2801.35,Cartão de crédito,realizada,7
+160,307,2026-04-30,2026-08-23,115,Lisboa,Português central,27,Standard,2,7690.44,Boleto,realizada,8
+96,228,2026-04-30,2026-06-20,51,Porto (central),Português central,11,Standard,2,3551.31,Pix,realizada,6
+228,381,2026-04-30,2026-07-04,65,Porto litoral,Português da Costa,12,Superior,1,2550.13,Cartão de crédito,realizada,7
+437,281,2026-05-01,2026-09-08,130,Lisboa,Português central,27,Econômico,1,3019.21,Cartão de crédito,realizada,9
+433,260,2026-05-02,2026-08-20,110,Porto (central),Português central,11,Superior,3,7546.72,Boleto,realizada,8
+458,373,2026-05-03,2026-09-07,127,Porto litoral,Português da Costa,12,Standard,2,4032.89,Boleto,realizada,9
+456,148,2026-05-03,2026-08-29,118,Tui/Valença,Português central,6,Standard,1,1052.4,Transferência internacional,cancelada,8
+275,278,2026-05-04,2026-10-07,156,Lisboa,Português central,27,Standard,2,7985.5,Cartão de crédito,realizada,10
+101,280,2026-05-04,2026-07-06,63,Sarria,Francês,7,Standard,2,2247.24,Boleto,realizada,7
+22,366,2026-05-04,2026-08-25,113,Porto (central),Português central,11,Standard,2,3640.52,Pix,realizada,8
+368,188,2026-05-04,2026-07-10,67,Tui/Valença,Português central,6,Standard,3,2939.38,Transferência internacional,cancelada,7
+137,326,2026-05-06,2026-08-30,116,Sarria,Francês,7,Econômico,3,2517.15,Cartão de crédito,realizada,8
+81,327,2026-05-06,2026-09-13,130,SJPP,Francês,33,Standard,4,18152.31,Pix,realizada,9
+177,415,2026-05-07,2026-06-15,39,Porto litoral,Português da Costa,12,Standard,2,4092.87,Cartão de crédito,realizada,6
+320,418,2026-05-08,2026-09-25,140,Porto (central),Português central,11,Econômico,1,1436.53,Cartão de crédito,realizada,9
+450,122,2026-05-08,2026-07-11,64,Astorga,Francês,12,Econômico,2,3179.79,Cartão de crédito,realizada,7
+467,215,2026-05-09,2026-07-16,68,Lisboa,Português central,27,Econômico,2,6092.13,Transferência internacional,realizada,7
+370,11,2026-05-09,2026-07-23,75,Porto litoral,Português da Costa,12,Standard,2,3975.62,Cartão de crédito,realizada,7
+146,282,2026-05-09,2026-09-01,115,Astorga,Francês,12,Standard,2,3926.71,Cartão de crédito,realizada,9
+196,89,2026-05-09,2026-07-09,61,Sarria,Francês,7,Econômico,3,2546.12,Boleto,realizada,7
+108,18,2026-05-09,2026-06-20,42,Tui/Valença,Português central,6,Superior,2,2644.08,Pix,realizada,6
+294,393,2026-05-11,2026-09-30,142,Lisboa,Português central,27,Standard,2,7786.63,Pix,realizada,9
+65,176,2026-05-11,2026-09-04,116,Lisboa,Português central,27,Econômico,2,6173.74,Pix,realizada,9
+64,228,2026-05-13,2026-07-08,56,SJPP,Francês,33,Standard,2,8940.91,Cartão de crédito,realizada,7
+298,85,2026-05-14,2026-10-26,165,Lisboa,Português central,27,Standard,1,3860.5,Boleto,realizada,10
+424,236,2026-05-14,2026-07-21,68,Astorga,Francês,12,Standard,1,2085.24,Pix,realizada,7
+107,306,2026-05-14,2026-08-04,82,Tui/Valença,Português central,6,Econômico,3,2349.14,Cartão de crédito,realizada,8
+183,267,2026-05-15,2026-06-05,21,Porto litoral,Português da Costa,12,Superior,2,5276.39,Pix,realizada,6
+80,235,2026-05-15,2026-07-20,66,Porto litoral,Português da Costa,12,Standard,1,2000.67,Cartão de crédito,realizada,7
+413,354,2026-05-15,2026-07-14,60,Sarria,Francês,7,Standard,1,1102.61,Pix,realizada,7
+252,262,2026-05-15,2026-08-02,79,SJPP,Francês,33,Econômico,3,10069.78,Cartão de crédito,realizada,8
+427,187,2026-05-15,2026-07-01,47,Tui/Valença,Português central,6,Standard,2,1961.05,Transferência internacional,realizada,7
+239,398,2026-05-15,2026-06-28,44,Sarria,Francês,7,Econômico,1,877.86,Pix,realizada,6
+436,291,2026-05-17,2026-09-30,136,Porto (central),Português central,11,Standard,2,3665.45,Cartão de crédito,realizada,9
+242,274,2026-05-17,2026-07-15,59,Lisboa,Português central,27,Standard,2,7930.49,Cartão de crédito,realizada,7
+238,421,2026-05-19,2026-09-29,133,Lisboa,Português central,27,Superior,2,10412.57,Boleto,realizada,9
+271,119,2026-05-19,2026-10-20,154,Porto (central),Português central,11,Standard,2,3674.88,Pix,realizada,10
+263,317,2026-05-20,2026-08-09,81,Porto litoral,Português da Costa,12,Standard,1,1919.88,Pix,cancelada,8
+277,352,2026-05-20,2026-07-15,56,Porto (central),Português central,11,Superior,2,4677.38,Cartão de crédito,realizada,7
+285,222,2026-05-20,2026-07-29,70,Sarria,Francês,7,Standard,3,3385.27,Boleto,realizada,7
+398,215,2026-05-21,2026-08-17,88,Sarria,Francês,7,Econômico,2,1765.81,Cartão de crédito,realizada,8
+47,112,2026-05-21,2026-06-25,35,Porto litoral,Português da Costa,12,Econômico,1,1536.19,Pix,realizada,6
+167,152,2026-05-21,2026-07-01,41,Astorga,Francês,12,Econômico,2,3147.61,Boleto,realizada,7
+150,131,2026-05-22,2026-08-25,95,Porto litoral,Português da Costa,12,Standard,2,3943.11,Pix,realizada,8
+356,69,2026-05-23,2026-07-16,54,SJPP,Francês,33,Superior,4,23682.71,Boleto,realizada,7
+449,310,2026-05-23,2026-07-18,56,Astorga,Francês,12,Standard,2,4001.41,Pix,realizada,7
+190,94,2026-05-23,2026-08-19,88,Lisboa,Português central,27,Standard,2,7830.32,Cartão de crédito,realizada,8
+226,361,2026-05-24,2026-07-10,47,Porto litoral,Português da Costa,12,Econômico,2,3178.39,Pix,realizada,7
+220,382,2026-05-24,2026-08-17,85,Sarria,Francês,7,Econômico,2,1722.28,Cartão de crédito,cancelada,8
+211,317,2026-05-24,2026-08-12,80,Porto litoral,Português da Costa,12,Standard,1,2005.37,Cartão de crédito,realizada,8
+269,372,2026-05-24,2026-09-06,105,Tui/Valença,Português central,6,Econômico,2,1542.87,Boleto,realizada,9
+93,204,2026-05-25,2026-08-26,93,Porto litoral,Português da Costa,12,Standard,2,3982.33,Cartão de crédito,realizada,8
+111,62,2026-05-25,2026-08-21,88,Sarria,Francês,7,Superior,2,2935.42,Pix,realizada,8
+173,202,2026-05-26,2026-08-13,79,Astorga,Francês,12,Standard,2,3938.4,Pix,realizada,8
+125,148,2026-05-26,2026-07-17,52,SJPP,Francês,33,Standard,2,8917.88,Transferência internacional,realizada,7
+328,302,2026-05-26,2026-10-19,146,Porto (central),Português central,11,Econômico,1,1392.06,Cartão de crédito,realizada,10
+197,78,2026-05-27,2026-07-27,61,Lisboa,Português central,27,Econômico,3,9125.35,Boleto,realizada,7
+128,40,2026-05-27,2026-09-09,105,Porto (central),Português central,11,Superior,2,4601.78,Transferência internacional,realizada,9
+193,268,2026-05-27,2026-09-15,111,SJPP,Francês,33,Econômico,2,6937.82,Cartão de crédito,realizada,9
+117,150,2026-05-28,2026-09-13,108,Porto (central),Português central,11,Standard,1,1860.85,Cartão de crédito,realizada,9
+213,303,2026-05-28,2026-08-30,94,SJPP,Francês,33,Standard,2,8924.41,Cartão de crédito,realizada,8
+312,179,2026-05-28,2026-09-24,119,Porto litoral,Português da Costa,12,Superior,1,2505.13,Cartão de crédito,realizada,9
+350,385,2026-05-29,2026-08-02,65,Porto litoral,Português da Costa,12,Standard,1,2026.75,Cartão de crédito,realizada,8
+79,87,2026-05-29,2026-10-18,142,Sarria,Francês,7,Standard,2,2235.48,Pix,realizada,10
+77,193,2026-05-29,2026-10-09,133,Tui/Valença,Português central,6,Standard,3,2960.92,Cartão de crédito,realizada,10
+395,77,2026-05-29,2026-09-24,118,Lisboa,Português central,27,Econômico,3,9191.61,Pix,realizada,9
+381,124,2026-05-30,2026-07-18,49,Sarria,Francês,7,Standard,2,2228.5,Cartão de crédito,realizada,7
+443,353,2026-05-31,2026-08-02,63,SJPP,Francês,33,Standard,4,17644.96,Pix,realizada,8
+7,186,2026-05-31,2026-08-16,77,Tui/Valença,Português central,6,Econômico,3,2342.97,Cartão de crédito,realizada,8
+394,31,2026-05-31,2026-06-27,27,SJPP,Francês,33,Econômico,2,7077.26,Transferência internacional,realizada,6
+184,371,2026-06-02,2026-09-11,101,Porto litoral,Português da Costa,12,Standard,1,1995.48,Pix,realizada,9
+444,116,2026-06-02,2026-10-29,149,Sarria,Francês,7,Standard,4,4416.74,Cartão de crédito,realizada,10
+122,212,2026-06-02,2027-03-28,299,Sarria,Francês,7,Standard,2,2174.08,Pix,confirmada,3
+42,255,2026-06-03,2026-08-16,74,Sarria,Francês,7,Standard,4,4348.67,Cartão de crédito,realizada,8
+97,391,2026-06-03,2026-08-12,70,Tui/Valença,Português central,6,Econômico,1,766.56,Cartão de crédito,cancelada,8
+68,13,2026-06-04,2026-09-08,96,Sarria,Francês,7,Standard,2,2183.98,Cartão de crédito,realizada,9
+73,208,2026-06-05,2026-08-02,58,Sarria,Francês,7,Superior,2,2860.66,Pix,realizada,8
+348,195,2026-06-05,2026-10-06,123,Porto litoral,Português da Costa,12,Superior,2,5330.2,Pix,realizada,10
+319,30,2026-06-05,2026-08-07,63,Porto litoral,Português da Costa,12,Econômico,1,1489.12,Pix,realizada,8
+176,120,2026-06-06,2027-04-11,309,Porto litoral,Português da Costa,12,Standard,2,3990.91,Cartão de crédito,cancelada,4
+53,239,2026-06-06,2026-09-02,88,Astorga,Francês,12,Superior,3,8286.93,Pix,realizada,9
+171,98,2026-06-07,2026-10-03,118,Porto (central),Português central,11,Standard,4,7214.14,Transferência internacional,realizada,10
+114,219,2026-06-10,2026-09-15,97,Sarria,Francês,7,Econômico,2,1740.78,Pix,realizada,9
+9,1,2026-06-11,2026-09-02,83,Porto (central),Português central,11,Superior,1,2368.16,Cartão de crédito,realizada,9
+87,119,2026-06-11,2026-09-01,82,Sarria,Francês,7,Standard,2,2171.79,Cartão de crédito,realizada,9
+118,331,2026-06-12,2026-10-16,126,Lisboa,Português central,27,Standard,2,8041.32,Pix,realizada,10
+349,112,2026-06-14,2026-08-11,58,Sarria,Francês,7,Standard,1,1132.02,Cartão de crédito,realizada,8
+43,298,2026-06-14,2026-08-09,56,Porto (central),Português central,11,Econômico,2,2764.28,Boleto,realizada,8
+273,358,2026-06-15,2026-09-09,86,Tui/Valença,Português central,6,Econômico,2,1542.44,Boleto,realizada,9
+418,133,2026-06-16,2026-09-30,106,Porto (central),Português central,11,Superior,1,2399.53,Cartão de crédito,realizada,9
+90,339,2026-06-16,2026-08-15,60,Porto (central),Português central,11,Standard,3,5360.5,Cartão de crédito,realizada,8
+314,209,2026-06-17,2026-10-27,132,Sarria,Francês,7,Standard,2,2205.25,Cartão de crédito,realizada,10
+91,371,2026-06-17,2026-08-06,50,Porto (central),Português central,11,Econômico,2,2849.96,Cartão de crédito,realizada,8
+259,411,2026-06-18,2026-10-04,108,Porto litoral,Português da Costa,12,Standard,2,3845.57,Cartão de crédito,realizada,10
+240,172,2026-06-18,2026-08-27,70,Lisboa,Português central,27,Standard,2,7987.38,Pix,realizada,8
+52,85,2026-06-19,2026-08-26,68,Porto (central),Português central,11,Standard,1,1752.77,Cartão de crédito,realizada,8
+59,110,2026-06-19,2026-09-09,82,Porto litoral,Português da Costa,12,Superior,1,2636.48,Pix,realizada,9
+143,64,2026-06-20,2026-10-14,116,SJPP,Francês,33,Standard,2,9218.88,Pix,realizada,10
+447,217,2026-06-21,2026-10-07,108,Porto (central),Português central,11,Econômico,2,2910.5,Transferência internacional,realizada,10
+229,317,2026-06-21,2026-08-30,70,Porto litoral,Português da Costa,12,Econômico,1,1572.18,Cartão de crédito,realizada,8
+291,384,2026-06-22,2026-09-20,90,Porto (central),Português central,11,Standard,2,3513.55,Pix,realizada,9
+322,275,2026-06-23,2026-09-13,82,Sarria,Francês,7,Standard,2,2120.85,Pix,realizada,9
+104,404,2026-06-24,2026-10-06,104,Porto litoral,Português da Costa,12,Standard,2,3932.16,Cartão de crédito,realizada,10
+162,115,2026-06-24,2026-08-21,58,Porto litoral,Português da Costa,12,Econômico,2,3092.42,Pix,realizada,8
+21,125,2026-06-25,2026-10-15,112,SJPP,Francês,33,Standard,2,9213.91,Pix,realizada,10
+75,202,2026-06-25,2026-07-19,24,Porto litoral,Português da Costa,12,Standard,4,8246.85,Cartão de crédito,realizada,7
+71,252,2026-06-25,2026-09-14,81,Porto (central),Português central,11,Econômico,1,1396.31,Cartão de crédito,realizada,9
+380,351,2026-06-26,2026-07-30,34,Sarria,Francês,7,Superior,1,1446.29,Pix,realizada,7
+410,359,2026-06-27,2026-11-03,129,Tui/Valença,Português central,6,Standard,3,2999.94,Cartão de crédito,realizada,11
+55,65,2026-06-27,2026-08-08,42,Sarria,Francês,7,Superior,1,1486.02,Pix,realizada,8
+29,246,2026-06-27,2026-10-08,103,Porto (central),Português central,11,Standard,2,3619.2,Cartão de crédito,realizada,10
+222,228,2026-06-28,2026-10-02,96,Sarria,Francês,7,Superior,4,5885.76,Cartão de crédito,realizada,10
+66,225,2026-06-30,2026-10-02,94,Sarria,Francês,7,Standard,2,2162.48,Pix,cancelada,10
+60,147,2026-06-30,2026-08-25,56,Porto (central),Português central,11,Standard,1,1833.53,Cartão de crédito,realizada,8
+3,292,2026-06-30,2026-11-14,137,Tui/Valença,Português central,6,Econômico,2,1576.58,Transferência internacional,cancelada,11
+386,288,2026-07-01,2026-10-25,116,Porto litoral,Português da Costa,12,Standard,2,4070.1,Cartão de crédito,realizada,10
+376,298,2026-07-02,2026-08-22,51,Porto (central),Português central,11,Econômico,1,1405.45,Pix,realizada,8
+50,312,2026-07-02,2026-09-29,89,Astorga,Francês,12,Standard,2,4008.81,Pix,realizada,9
+10,410,2026-07-03,2026-08-07,35,Sarria,Francês,7,Standard,2,2208.98,Transferência internacional,realizada,8
+253,15,2026-07-04,2026-08-19,46,Porto (central),Português central,11,Econômico,2,2903.48,Cartão de crédito,realizada,8
+304,112,2026-07-04,2026-09-08,66,Tui/Valença,Português central,6,Standard,2,2024.92,Transferência internacional,realizada,9
+460,383,2026-07-05,2026-08-17,43,Tui/Valença,Português central,6,Standard,3,2964.63,Cartão de crédito,realizada,8
+406,149,2026-07-05,2027-05-25,324,Sarria,Francês,7,Standard,2,2217.89,Pix,confirmada,5
+98,131,2026-07-05,2026-09-10,67,Sarria,Francês,7,Standard,4,4493.06,Pix,realizada,9
+142,308,2026-07-06,2026-09-08,64,Porto litoral,Português da Costa,12,Standard,2,3928.65,Cartão de crédito,realizada,9
+224,195,2026-07-06,2026-08-12,37,Porto litoral,Português da Costa,12,Econômico,2,3160.48,Cartão de crédito,realizada,8
+455,71,2026-07-06,2026-09-17,73,Astorga,Francês,12,Standard,2,3923.96,Transferência internacional,realizada,9
+210,115,2026-07-06,2026-10-25,111,Porto litoral,Português da Costa,12,Superior,2,5140.92,Cartão de crédito,realizada,10
+23,76,2026-07-07,2026-08-23,47,Sarria,Francês,7,Standard,2,2181.18,Cartão de crédito,realizada,8
+419,161,2026-07-08,2026-09-15,69,Tui/Valença,Português central,6,Econômico,2,1592.84,Boleto,realizada,9
+164,189,2026-07-08,2026-09-28,82,SJPP,Francês,33,Standard,4,18249.9,Pix,realizada,9
+215,402,2026-07-09,2027-05-20,315,Porto (central),Português central,11,Econômico,2,2784.88,Pix,confirmada,5
+429,121,2026-07-10,2026-09-14,66,Astorga,Francês,12,Econômico,1,1603.82,Cartão de crédito,realizada,9
+387,146,2026-07-12,2026-09-28,78,Sarria,Francês,7,Standard,1,1058.91,Pix,realizada,9
+61,308,2026-07-13,2026-08-22,40,Lisboa,Português central,27,Standard,2,7670.78,Cartão de crédito,realizada,8
+362,13,2026-07-14,2026-08-05,22,Tui/Valença,Português central,6,Superior,3,3868.7,Pix,realizada,8
+371,68,2026-07-14,2026-08-10,27,Astorga,Francês,12,Standard,2,3952.91,Cartão de crédito,realizada,8
+138,230,2026-07-15,2026-10-03,80,SJPP,Francês,33,Standard,2,9321.3,Pix,realizada,10
+194,124,2026-07-16,2026-09-19,65,Tui/Valença,Português central,6,Standard,2,2038.19,Cartão de crédito,cancelada,9
+425,403,2026-07-16,2026-09-23,69,Sarria,Francês,7,Standard,2,2243.43,Boleto,realizada,9
+74,66,2026-07-16,2026-08-25,40,Porto (central),Português central,11,Standard,3,5367.76,Transferência internacional,realizada,8
+400,360,2026-07-18,2026-09-04,48,Porto (central),Português central,11,Standard,2,3554.27,Pix,realizada,9
+189,366,2026-07-18,2026-10-16,90,Tui/Valença,Português central,6,Standard,2,2023.03,Transferência internacional,realizada,10
+109,156,2026-07-19,2026-10-12,85,Lisboa,Português central,27,Econômico,2,6075.4,Pix,realizada,10
+198,205,2026-07-19,2026-09-26,69,Sarria,Francês,7,Econômico,2,1742.38,Pix,realizada,9
+385,146,2026-07-21,2026-08-26,36,Porto (central),Português central,11,Standard,2,3616.98,Cartão de crédito,realizada,8
+5,239,2026-07-21,2026-09-09,50,Porto litoral,Português da Costa,12,Econômico,2,3106.79,Cartão de crédito,realizada,9
+336,336,2026-07-22,2026-08-16,25,Sarria,Francês,7,Superior,1,1454.88,Cartão de crédito,realizada,8
+369,380,2026-07-24,2026-09-22,60,Sarria,Francês,7,Econômico,2,1742.32,Cartão de crédito,realizada,9
+116,81,2026-07-24,2027-06-19,330,Porto litoral,Português da Costa,12,Standard,2,4067.63,Cartão de crédito,confirmada,6
+333,171,2026-07-25,2026-09-21,58,SJPP,Francês,33,Standard,2,8636.09,Pix,cancelada,9
+201,291,2026-07-25,2026-08-24,30,Tui/Valença,Português central,6,Superior,2,2687.45,Cartão de crédito,cancelada,8
+441,141,2026-07-27,2026-09-08,43,Sarria,Francês,7,Superior,3,4295.17,Pix,realizada,9
+95,371,2026-07-27,2026-10-31,96,Porto (central),Português central,11,Standard,2,3567.53,Cartão de crédito,realizada,10
+256,199,2026-07-28,2026-09-21,55,Porto litoral,Português da Costa,12,Standard,1,2038.29,Cartão de crédito,cancelada,9
+110,306,2026-07-28,2026-10-08,72,Porto litoral,Português da Costa,12,Standard,2,4015.17,Cartão de crédito,realizada,10
+414,279,2026-07-28,2026-10-12,76,Tui/Valença,Português central,6,Econômico,3,2357.74,Pix,cancelada,10
+392,148,2026-07-29,2026-10-30,93,Porto litoral,Português da Costa,12,Standard,2,4087.24,Pix,realizada,10
+351,387,2026-07-29,2026-09-16,49,Sarria,Francês,7,Standard,2,2213.9,Cartão de crédito,realizada,9
+141,208,2026-07-29,2026-10-06,69,Porto litoral,Português da Costa,12,Standard,2,3904.39,Pix,realizada,10
+221,166,2026-07-30,2026-10-03,65,Sarria,Francês,7,Standard,2,2305.7,Transferência internacional,realizada,10
+151,360,2026-07-31,2026-09-24,55,Sarria,Francês,7,Standard,3,3401.66,Cartão de crédito,realizada,9
+181,104,2026-08-01,2026-09-17,47,Sarria,Francês,7,Standard,2,2134.27,Cartão de crédito,realizada,9
+15,310,2026-08-03,2026-09-13,41,Tui/Valença,Português central,6,Standard,2,2012.15,Pix,realizada,9
+17,63,2026-08-04,2026-10-16,73,Porto (central),Português central,11,Econômico,4,5766.18,Cartão de crédito,realizada,10
+308,70,2026-08-04,2026-09-28,55,Sarria,Francês,7,Superior,2,3002.47,Pix,realizada,9
+165,12,2026-08-04,2026-11-08,96,Porto (central),Português central,11,Standard,3,5415.22,Pix,realizada,11
+399,67,2026-08-07,2026-09-16,40,Porto litoral,Português da Costa,12,Standard,2,4083.89,Pix,realizada,9
+174,161,2026-08-07,2026-11-16,101,Tui/Valença,Português central,6,Superior,2,2567.41,Transferência internacional,realizada,11
+20,329,2026-08-09,2026-09-05,27,SJPP,Francês,33,Standard,2,9128.4,Pix,realizada,9
+243,21,2026-08-09,2026-09-27,49,Astorga,Francês,12,Standard,2,4138.57,Pix,realizada,9
+330,50,2026-08-09,2026-10-12,64,Lisboa,Português central,27,Standard,3,11577.91,Cartão de crédito,realizada,10
+39,51,2026-08-10,2026-10-06,57,Astorga,Francês,12,Standard,2,4049.45,Cartão de crédito,realizada,10
+28,48,2026-08-12,2026-09-16,35,Sarria,Francês,7,Superior,2,2901.49,Cartão de crédito,realizada,9
+401,152,2026-08-12,2026-09-20,39,Lisboa,Português central,27,Standard,3,11753.33,Pix,realizada,9
+332,314,2026-08-12,2027-07-08,330,Sarria,Francês,7,Superior,2,2859.26,Cartão de crédito,confirmada,7
+469,162,2026-08-12,2026-10-23,72,Astorga,Francês,12,Econômico,2,3076.62,Pix,realizada,10
+286,390,2026-08-14,2026-09-17,34,Porto litoral,Português da Costa,12,Superior,2,5145.44,Cartão de crédito,realizada,9
+156,380,2026-08-15,2026-09-27,43,Tui/Valença,Português central,6,Standard,2,1945.86,Cartão de crédito,realizada,9
+287,69,2026-08-16,2026-10-24,69,Porto (central),Português central,11,Superior,2,4758.55,Cartão de crédito,realizada,10
+432,53,2026-08-17,2026-10-20,64,Sarria,Francês,7,Superior,4,5579.59,Cartão de crédito,realizada,10
+4,137,2026-08-18,2026-09-15,28,Tui/Valença,Português central,6,Econômico,1,745.7,Cartão de crédito,realizada,9
+411,378,2026-08-19,2026-10-28,70,Tui/Valença,Português central,6,Standard,2,1984.98,Cartão de crédito,cancelada,10
+397,365,2026-08-19,2026-10-13,55,Porto (central),Português central,11,Standard,3,5475.99,Pix,realizada,10
+129,397,2026-08-20,2026-10-19,60,Tui/Valença,Português central,6,Econômico,3,2250.25,Cartão de crédito,realizada,10
+63,288,2026-08-20,2026-12-08,110,Porto litoral,Português da Costa,12,Standard,2,3994.84,Cartão de crédito,confirmada,12
+31,201,2026-08-21,2026-10-06,46,Porto (central),Português central,11,Standard,2,3651.98,Cartão de crédito,realizada,10
+375,163,2026-08-25,2026-10-16,52,Tui/Valença,Português central,6,Superior,1,1295.14,Cartão de crédito,realizada,10
+302,168,2026-08-26,2026-10-23,58,Porto (central),Português central,11,Superior,2,4621.81,Pix,realizada,10
+134,250,2026-08-31,2026-10-14,44,SJPP,Francês,33,Standard,3,13628.74,Pix,realizada,10
+152,269,2026-09-03,2026-10-29,56,Sarria,Francês,7,Superior,2,2923.23,Cartão de crédito,realizada,10
+416,383,2026-09-03,2026-10-25,52,Sarria,Francês,7,Superior,2,2915.28,Cartão de crédito,realizada,10
+367,416,2026-09-06,2027-04-01,207,Porto (central),Português central,11,Standard,3,5462.8,Transferência internacional,confirmada,4
+237,8,2026-09-07,2026-09-26,19,Tui/Valença,Português central,6,Standard,2,2001.09,Pix,realizada,9
+426,330,2026-09-09,2026-10-19,40,Tui/Valença,Português central,6,Econômico,2,1598.12,Cartão de crédito,realizada,10
+161,109,2026-09-10,2026-12-19,100,Tui/Valença,Português central,6,Standard,4,3964.59,Pix,confirmada,12
+163,122,2026-09-10,2026-09-27,17,Lisboa,Português central,27,Standard,2,7795.99,Pix,realizada,9
+451,137,2026-09-11,2026-10-27,46,Lisboa,Português central,27,Superior,1,5045.73,Cartão de crédito,realizada,10
+12,311,2026-09-11,2026-10-14,33,Tui/Valença,Português central,6,Standard,3,2938.71,Pix,realizada,10
+8,375,2026-09-15,2026-10-23,38,Sarria,Francês,7,Standard,2,2206.69,Cartão de crédito,realizada,10
+293,168,2026-09-16,2027-04-20,216,Astorga,Francês,12,Superior,2,5324.72,Pix,cancelada,4
+354,164,2026-09-16,2027-06-26,283,SJPP,Francês,33,Standard,2,9204.64,Cartão de crédito,confirmada,6
+301,189,2026-09-19,2027-08-15,330,Lisboa,Português central,27,Standard,2,7625.13,Boleto,confirmada,8
+33,240,2026-09-21,2027-04-13,204,Porto litoral,Português da Costa,12,Superior,2,5117.68,Transferência internacional,confirmada,4
+26,419,2026-09-22,2027-03-25,184,Astorga,Francês,12,Econômico,2,3099.63,Cartão de crédito,confirmada,3
+30,216,2026-09-23,2026-11-23,61,Lisboa,Português central,27,Econômico,2,6141.74,Cartão de crédito,confirmada,11
+248,400,2026-09-25,2027-05-12,229,Porto litoral,Português da Costa,12,Superior,3,7929.01,Cartão de crédito,confirmada,5
+85,299,2026-09-28,2026-11-10,43,SJPP,Francês,33,Superior,2,11537.5,Cartão de crédito,realizada,11
+335,57,2026-10-04,2026-11-16,43,Astorga,Francês,12,Standard,2,3950.66,Cartão de crédito,realizada,11
+331,118,2026-10-07,2027-04-23,198,Porto (central),Português central,11,Standard,3,5568.65,Cartão de crédito,confirmada,4
+345,4,2026-10-08,2027-05-23,227,Sarria,Francês,7,Standard,2,2202.44,Cartão de crédito,confirmada,5
+223,187,2026-10-08,2026-11-30,53,Sarria,Francês,7,Standard,2,2251.11,Cartão de crédito,confirmada,11
+131,185,2026-10-16,2027-04-11,177,Sarria,Francês,7,Econômico,2,1730.15,Cartão de crédito,cancelada,4
+295,379,2026-10-17,2027-04-07,172,Tui/Valença,Português central,6,Econômico,2,1554.54,Pix,confirmada,4
+359,12,2026-10-18,2027-05-31,225,Tui/Valença,Português central,6,Standard,3,2959.46,Pix,confirmada,5
+202,32,2026-10-22,2027-07-07,258,Tui/Valença,Português central,6,Superior,4,5202.96,Pix,confirmada,7
+187,180,2026-10-22,2026-12-14,53,Lisboa,Português central,27,Standard,2,7752.81,Boleto,confirmada,12
+205,97,2026-10-24,2027-09-19,330,Sarria,Francês,7,Standard,2,2257.1,Pix,confirmada,9
+327,106,2026-10-24,2027-03-28,155,Sarria,Francês,7,Superior,3,4404.21,Cartão de crédito,confirmada,3
+339,383,2026-10-28,2027-05-11,195,Tui/Valença,Português central,6,Standard,3,3012.13,Cartão de crédito,confirmada,5
+2,378,2026-11-02,2027-06-03,213,Tui/Valença,Português central,6,Econômico,2,1535.73,Boleto,confirmada,6
+148,185,2026-11-04,2027-04-21,168,Sarria,Francês,7,Standard,4,4325.25,Transferência internacional,confirmada,4
+372,73,2026-11-05,2027-06-26,233,Lisboa,Português central,27,Econômico,2,6151.77,Cartão de crédito,cancelada,6
+363,138,2026-11-05,2027-07-15,252,Lisboa,Português central,27,Superior,3,15295.63,Cartão de crédito,cancelada,7
+461,131,2026-11-07,2027-06-04,209,SJPP,Francês,33,Standard,4,18002.31,Pix,confirmada,6
+44,33,2026-11-08,2027-03-13,125,Porto litoral,Português da Costa,12,Standard,3,6078.6,Cartão de crédito,confirmada,3
+282,354,2026-11-10,2027-05-26,197,Tui/Valença,Português central,6,Econômico,3,2403.03,Pix,confirmada,5
+119,55,2026-11-14,2027-03-08,114,Porto litoral,Português da Costa,12,Superior,1,2688.37,Cartão de crédito,cancelada,3

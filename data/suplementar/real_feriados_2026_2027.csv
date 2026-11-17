@@ -1,0 +1,77 @@
+﻿pais,data,feriado,dia_semana,ano_santo_xacobeo,observacao
+Brasil,2026-01-01,Confraternização Universal,qui,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2026-01-01,Año Nuevo,qui,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2026-01-01,Ano Novo,qui,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2026-01-06,Epifanía,ter,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2026-02-17,Carnaval (terça-feira),ter,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2026-04-02,Jueves Santo,qui,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2026-04-03,Sexta-feira Santa,sex,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2026-04-03,Viernes Santo,sex,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2026-04-03,Sexta-feira Santa,sex,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2026-04-05,Páscoa,dom,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2026-04-21,Tiradentes,ter,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2026-04-25,Dia da Liberdade,sáb,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2026-05-01,Dia do Trabalho,sex,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2026-05-01,Día del Trabajo,sex,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2026-05-01,Dia do Trabalhador,sex,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2026-05-17,Día das Letras Galegas,dom,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2026-06-04,Corpus Christi,qui,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2026-06-04,Corpo de Deus,qui,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2026-06-10,Dia de Portugal,qua,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2026-07-25,Santiago Apóstol / Día Nacional de Galicia,sáb,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2026-08-15,Asunción,sáb,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2026-08-15,Assunção,sáb,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2026-09-07,Independência,seg,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2026-10-05,Implantação da República,seg,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2026-10-12,Nossa Senhora Aparecida,seg,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2026-10-12,Fiesta Nacional,seg,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2026-11-01,Todos los Santos,dom,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2026-11-01,Todos os Santos,dom,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2026-11-02,Finados,seg,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2026-11-15,Proclamação da República,dom,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2026-11-20,Consciência Negra,sex,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2026-12-01,Restauração da Independência,ter,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2026-12-06,Día de la Constitución,dom,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2026-12-08,Inmaculada,ter,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2026-12-08,Imaculada Conceição,ter,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2026-12-25,Natal,sex,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2026-12-25,Navidad,sex,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2026-12-25,Natal,sex,False,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2027-01-01,Confraternização Universal,sex,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2027-01-01,Año Nuevo,sex,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2027-01-01,Ano Novo,sex,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2027-01-06,Epifanía,qua,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2027-02-09,Carnaval (terça-feira),ter,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2027-03-25,Jueves Santo,qui,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2027-03-26,Sexta-feira Santa,sex,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2027-03-26,Viernes Santo,sex,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2027-03-26,Sexta-feira Santa,sex,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2027-03-28,Páscoa,dom,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2027-04-21,Tiradentes,qua,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2027-04-25,Dia da Liberdade,dom,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2027-05-01,Dia do Trabalho,sáb,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2027-05-01,Día del Trabajo,sáb,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2027-05-01,Dia do Trabalhador,sáb,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2027-05-17,Día das Letras Galegas,seg,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2027-05-27,Corpus Christi,qui,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2027-05-27,Corpo de Deus,qui,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2027-06-10,Dia de Portugal,qui,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2027-07-25,Santiago Apóstol / Día Nacional de Galicia,dom,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2027-08-15,Asunción,dom,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2027-08-15,Assunção,dom,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2027-09-07,Independência,ter,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2027-10-05,Implantação da República,ter,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2027-10-12,Nossa Senhora Aparecida,ter,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2027-10-12,Fiesta Nacional,ter,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2027-11-01,Todos los Santos,seg,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2027-11-01,Todos os Santos,seg,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2027-11-02,Finados,ter,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2027-11-15,Proclamação da República,seg,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2027-11-20,Consciência Negra,sáb,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2027-12-01,Restauração da Independência,qua,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2027-12-06,Día de la Constitución,seg,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2027-12-08,Inmaculada,qua,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2027-12-08,Imaculada Conceição,qua,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Brasil,2027-12-25,Natal,sáb,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Espanha (Galiza),2027-12-25,Navidad,sáb,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional
+Portugal,2027-12-25,Natal,sáb,True,Calculado por regra de calendário; conferir em calendário oficial antes de uso operacional

@@ -1,0 +1,102 @@
+{
+  "repository": "https://github.com/Thiago-code-lab/Dashboards-Tour4Friends",
+  "commit": "0216dce5f67b83fbb0ba84346a7742dcb4f5ce23",
+  "reference": "main integrada; PRs 1, 2 e 3",
+  "dataset": {
+    "original": "public/data/demo.json",
+    "local": "data/raw/t4f-demo.json",
+    "sha256": "b9362c92d4e8702eb685a532ee55dd7d9f21e2840ed10f652bad65e25fff237e"
+  },
+  "files": [
+    {
+      "original": "src/types/domain.ts",
+      "local": "vendor/t4f/src/types/domain.ts",
+      "sha256": "d6368090eeac5edde1113cb6fc32b54acba870041db0f84fbd7f2a6dc578c6ea"
+    },
+    {
+      "original": "src/lib/format.ts",
+      "local": "vendor/t4f/src/lib/format.ts",
+      "sha256": "69de2e1d83e8682d87e9abab3623e5631e84107ee0d971c75166edbd4e2e33b3"
+    },
+    {
+      "original": "src/lib/validation/dataset.ts",
+      "local": "vendor/t4f/src/lib/validation/dataset.ts",
+      "sha256": "389d86e048c6cb09fae6ca2d647ffec292fe14d0b65685768399353e3134f59a"
+    },
+    {
+      "original": "scripts/generate_demo_data.py",
+      "local": "vendor/t4f/scripts/generate_demo_data.py",
+      "sha256": "d598eefcc948b079e40de3ec2cad30edf2112e27d495aafa45a45475b5401e50"
+    },
+    {
+      "original": "tests/fixtures/kpi-reference.json",
+      "local": "vendor/t4f/tests/fixtures/kpi-reference.json",
+      "sha256": "b74763d22a740bded8b6843532a815e54c05cf07f6b76abba93286e954699eff"
+    },
+    {
+      "original": "tests/fixtures/kpi-reference-expected.json",
+      "local": "vendor/t4f/tests/fixtures/kpi-reference-expected.json",
+      "sha256": "bb453491c9745c67bbbfb4ed2d1c36b3aa302028b2d522dc4b57054d3ab4371c"
+    },
+    {
+      "original": "src/lib/analytics/alerts.ts",
+      "local": "vendor/t4f/src/lib/analytics/alerts.ts",
+      "sha256": "d4b2c2ccda87d3ae39a99975ba3863486f837f44cf12f3561e483a5547620772"
+    },
+    {
+      "original": "src/lib/analytics/anomalies.ts",
+      "local": "vendor/t4f/src/lib/analytics/anomalies.ts",
+      "sha256": "6e59f98268928084089d040de3b217f2a1a618b5d0314fb1fb1d85f56d9f4d3d"
+    },
+    {
+      "original": "src/lib/analytics/insights.ts",
+      "local": "vendor/t4f/src/lib/analytics/insights.ts",
+      "sha256": "062c41eae7f81abcdac8ef4b28d9f3aa56230e32cdbb872bc4f4bcab78cece29"
+    },
+    {
+      "original": "src/lib/analytics/metrics.ts",
+      "local": "vendor/t4f/src/lib/analytics/metrics.ts",
+      "sha256": "11c2bffd391c99e493244930b80e91c571d37630d43c9e6a582a17c44b595faa"
+    },
+    {
+      "original": "src/lib/analytics/numerical.ts",
+      "local": "vendor/t4f/src/lib/analytics/numerical.ts",
+      "sha256": "ebca99c8bd22d49d13498791ffa6bfa03c93cce963d48a8f86000ba466a5935f"
+    },
+    {
+      "original": "src/lib/analytics/statistics.ts",
+      "local": "vendor/t4f/src/lib/analytics/statistics.ts",
+      "sha256": "3ab4b30c92eeb8fb2caabc27a428287986a522fc59647d1512752e0def179406"
+    },
+    {
+      "original": "src/lib/forecasting/capacity.ts",
+      "local": "vendor/t4f/src/lib/forecasting/capacity.ts",
+      "sha256": "6e028bc1011d69e50166892ff20b03de91c5201442a8bf03c2632614770298d2"
+    },
+    {
+      "original": "src/lib/forecasting/dataset.ts",
+      "local": "vendor/t4f/src/lib/forecasting/dataset.ts",
+      "sha256": "ae14a6f0e7bac4a3a9f49b0f59a48cb9a358d6d88d60d8184fed6214576710cd"
+    },
+    {
+      "original": "src/lib/forecasting/estimators.ts",
+      "local": "vendor/t4f/src/lib/forecasting/estimators.ts",
+      "sha256": "26afce7655a7080e4f77f262f25f78ef308cfce533fce9fb23077c243d221eba"
+    },
+    {
+      "original": "src/lib/forecasting/evaluation.ts",
+      "local": "vendor/t4f/src/lib/forecasting/evaluation.ts",
+      "sha256": "d9e7c36e81aa8495b9bc2c2b2a82287abaccaa5823c932d19d2013bfb3735f1e"
+    },
+    {
+      "original": "src/lib/forecasting/models.ts",
+      "local": "vendor/t4f/src/lib/forecasting/models.ts",
+      "sha256": "28b0c0ace87ec5809145fd27c5847c76a13919f05d71002391fbee740e1cbe20"
+    },
+    {
+      "original": "src/lib/forecasting/types.ts",
+      "local": "vendor/t4f/src/lib/forecasting/types.ts",
+      "sha256": "979cf53c74b4c7c7cb170a2ef4b8be4fe830cde584b8a53950a333dfc04e55bf"
+    }
+  ]
+}
