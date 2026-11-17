@@ -1,0 +1,19 @@
+{
+  "repository": "https://github.com/Thiago-code-lab/portfolio-t4f-data-analytics",
+  "branch": "main",
+  "verified_commit": "bac542e8cd80fcca3f0b2404c8e19fc02cb524ba",
+  "root_commit": "372d29d0c69c81186f08b1b91c163095cd90bd22",
+  "public_commit_count": 2,
+  "public_branches": [
+    "main"
+  ],
+  "repository_http": 200,
+  "files_verified_byte_for_byte": 97,
+  "history_subjects": [
+    "fix: preservar integridade das fontes em checkouts Windows",
+    "feat: publicar portfolio de dados T4F com bases e documentacao"
+  ],
+  "scope": "Snapshot anterior ao commit documental que incorpora este registro; o hash do proprio registro nao e autorreferenciado.",
+  "workflows": 0,
+  "notebook_interactive_preview": "Not homologated; raw notebook accessible and hash verified."
+}

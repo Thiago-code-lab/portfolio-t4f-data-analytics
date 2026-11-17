@@ -46,3 +46,7 @@ PDFs renderizados com PyMuPDF disponível; Poppler não estava no PATH. Páginas
 Dados da demo e do ZIP permanecem separados. Fontes externas do pacote não foram certificadas como estatísticas oficiais ou calendário legal. Modelos, quatro sprints, Power BI e automação semanal descritos no documento não são declarados executados sem evidência.
 
 O histórico público tem raiz própria do T4F; o arquivo local não é enviado. Integridade do original em preservacao-original.json; publicação e inspeção remota no [checklist](checklist-publicacao.md).
+
+## Checkout e publica??o
+
+Checkout isolado com core.autocrlf=true, sem .git ou ambiente herdado: hashes principal/complementar, instala??o npm e pipelines aprovados. Atributos fixam CSV em LF e ZIP bin?rio. Publica??o conferida por SHA local/remoto e download dos 97 arquivos do snapshot descrito em publicacao.json. README, docs e anexos acess?veis; nenhum workflow configurado. O preview interativo de notebook no GitHub n?o foi homologado, embora o arquivo bruto tenha sido baixado e conferido.

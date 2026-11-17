@@ -29,3 +29,9 @@ Destino: [Thiago-code-lab/portfolio-t4f-data-analytics](https://github.com/Thiag
 | LinkedIn | NÃO SE APLICA | Texto preparado, sem envio da postagem |
 
 Limitações de navegador e das referências secundárias são explícitas. A simulação principal é controlada e reproduzível sem essas fontes externas.
+
+## Confer?ncia p?blica
+
+[Evid?ncia da confer?ncia](publicacao.json): reposit?rio HTTP 200, main e hist?rico com raiz pr?pria, sem envio do arquivo local. Todos os 97 arquivos do snapshot conferido retornaram HTTP 200 e foram comparados byte a byte, inclusive imagens, notebook, ZIP e PDFs. O registro ? incorporado em um commit documental posterior; n?o cont?m o hash do pr?prio commit para evitar refer?ncia circular.
+
+Um checkout isolado com core.autocrlf=true tamb?m verificou os hashes e executou ambos os pipelines. CSVs usam LF expl?cito; ZIPs s?o bin?rios. Actions e Pages n?o foram criados.
