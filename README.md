@@ -1,47 +1,179 @@
-# Portfólio de Dados — T4F Performance | Tour4Friends
+# Projeto de Big Data — T4F Performance | Tour4Friends
 
-**Tour4Friends · Projeto Integrador V · Fatec Ipiranga**
+**Portfólio de Dados · Projeto Integrador V · Fatec Ipiranga**
 
-Como conectar demanda, capacidade, experiência do cliente e contribuição para apoiar decisões de uma agência de roteiros do Caminho de Santiago?
+**Disciplina:** Metodologias para Projetos de Big Data Analytics  
+**Professor:** Samuel Henrique  
+**Repositório deste portfólio:** https://github.com/Thiago-code-lab/portfolio-t4f-data-analytics  
+**Aplicação original:** [Dashboards-Tour4Friends](https://github.com/Thiago-code-lab/Dashboards-Tour4Friends)
 
-Este portfólio apresenta o processo analítico do **T4F Performance**, desenvolvido no Projeto Integrador V, para a disciplina **Metodologias para Projetos de Big Data Analytics**, do professor **Samuel Henrique**. Reúne problema, origem dos dados, validação, indicadores, análises, visualizações e metodologias. A aplicação original continua no [Dashboards-Tour4Friends](https://github.com/Thiago-code-lab/Dashboards-Tour4Friends).
-
-> **Dados demonstrativos sintéticos, seed 42.** Nenhum número representa o desempenho real da Tour4Friends. O cenário contém também Assis e Espanha cultural; seus registros foram preservados com o significado original.
+Este repositório reúne a definição do problema, a base de dados, o pipeline, as análises, as visualizações, os resultados e as metodologias aplicadas ao **T4F Performance**, solução de Business Intelligence para a Tour4Friends.
 
 ![Demanda histórica e média por mês](visualizacoes/demanda_sazonalidade.png)
 
-## Resultados reproduzidos
+## 1. Problema de negócio
 
-Histórico de **janeiro/2024 a outubro/2026**, referência da base em **07/11/2026**. Quantidades abaixo pertencem à coorte histórica de viagens, salvo indicação.
+A Tour4Friends organiza roteiros de peregrinação, incluindo os Caminhos Francês e Português de Santiago. Para apoiar o planejamento da operação, precisa reunir informações que normalmente são acompanhadas separadamente: procura por viagens, reservas, capacidade das hospedagens, satisfação dos clientes e indicadores financeiros.
+
+**Pergunta central:** como transformar esses dados em indicadores confiáveis para orientar decisões comerciais e operacionais?
+
+**Objetivos do projeto:**
+- Identificar padrões e variações da demanda.
+- Acompanhar reservas, cancelamentos e capacidade por saída e hospedagem.
+- Avaliar a experiência dos viajantes por meio de notas e NPS.
+- Relacionar receita contratada, custos e contribuição gerencial.
+- Demonstrar a preparação, a análise e a visualização de dados em um fluxo reproduzível.
+
+## 2. Base de dados: origem e descrição
+
+| Campo | Descrição |
+| --- | --- |
+| **Origem principal** | [T4F Performance — Projeto Integrador V](https://github.com/Thiago-code-lab/Dashboards-Tour4Friends), a partir de um snapshot versionado do cenário de desenvolvimento. |
+| **Arquivo de origem** | [data/raw/t4f-demo.json](data/raw/t4f-demo.json) |
+| **Descrição** | Registros estruturados de clientes, leads, reservas, saídas, roteiros, hospedagens, pagamentos, custos e avaliações. |
+| **Período histórico** | Janeiro de 2024 a outubro de 2026. |
+| **Unidades de análise** | Reservas, participações de viajantes, avaliações, meses e vagas-noite de hospedagem. |
+| **Dados tratados** | Gerados pelo pipeline em data/processed/ (CSV e JSON), após execução local. |
+| **Base complementar** | [anexos/bases_de_dados_T4F.zip](anexos/bases_de_dados_T4F.zip), documentada e analisada separadamente. |
+
+> **Natureza dos dados:** os indicadores deste portfólio foram calculados com uma base sintética reproduzível (seed 42). São resultados do cenário de estudo, não métricas operacionais auditadas da empresa. A base complementar utiliza outra simulação e seus indicadores não são misturados aos da base principal.
+
+As fontes, a estrutura dos campos, os critérios de qualidade e as regras de cálculo estão descritos em [fontes e dicionário de dados](docs/fontes-e-dicionario.md), [fontes e proveniência](docs/fontes.json) e [pipeline](docs/pipeline.md).
+
+## 3. Tecnologias utilizadas
+
+| Tecnologia | Aplicação no trabalho |
+| --- | --- |
+| **Python 3.12** | Orquestração das análises, validações, geração de resultados e relatório. |
+| **Pandas e NumPy** | Tratamento, organização e análise dos dados. |
+| **Matplotlib** | Produção de gráficos. |
+| **Jupyter Notebook** | Análise exploratória documentada e executável. |
+| **Streamlit** | Painel local para explorar os resultados. |
+| **TypeScript e Node.js** | Reutilização do núcleo validado de indicadores e previsões do projeto T4F. |
+| **Git e GitHub** | Versionamento, rastreabilidade e publicação do portfólio. |
+
+O sistema original também dispõe de um laboratório com **PostgreSQL/SQL**, mas ele não é necessário para reproduzir este portfólio. **Power BI não foi utilizado nesta entrega**: os gráficos foram feitos com Matplotlib e a exploração visual, com Streamlit.
+
+## 4. Metodologias aplicadas
+
+- **CRISP-DM:** entendimento do negócio e dos dados, preparação, modelagem, avaliação e comunicação dos resultados.
+- **KDD:** seleção, validação, transformação, descoberta e interpretação dos dados.
+- **Scrum e Kanban:** organização do trabalho, acompanhamento das entregas e registro dos limites das evidências.
+- **DataOps:** rastreabilidade das fontes, validações automatizadas, contratos de dados e reprodução de resultados.
+- **Panorama, planejamento e Canvas:** definição do contexto, dos objetivos, da proposta de valor e dos riscos.
+
+A ligação de cada metodologia com evidências do projeto está registrada em [docs/metodologias.md](docs/metodologias.md). Nem toda prática foi executada integralmente; a documentação diferencia aplicação comprovada de proposta metodológica.
+
+## 5. Pipeline de dados
+
+**Coleta → Limpeza → Transformação → Análise → Visualização**
+
+1. **Coleta / carregamento:** leitura da base versionada, identificação da origem e conferência dos arquivos.
+2. **Limpeza / validação:** verificação de tipos, datas, relações, identificadores e consistência das informações.
+3. **Transformação:** organização das coortes, agregações por roteiro e período, cálculo de reservas, demanda, ocupação, NPS e finanças.
+4. **Análise:** estatísticas descritivas, comparações, indicadores, limites de incerteza e avaliação temporal das previsões.
+5. **Visualização:** gráficos, notebook, painel Streamlit e relatório em PDF.
+
+~~~mermaid
+flowchart LR
+    A["Coleta: snapshot T4F"] --> B["Limpeza e validação"]
+    B --> C["Transformação e KPIs"]
+    C --> D["Análise e previsão"]
+    D --> E["Gráficos, notebook e dashboard"]
+    E --> F["Relatório e insights"]
+~~~
+
+O fluxo reproduz as regras do núcleo analítico incorporado do T4F e verifica os resultados por meio de testes. Consulte [a implementação](src/), [os testes](tests/) e [a verificação](docs/verificacao.md).
+
+## 6. Análises e visualizações
+
+O portfólio explora seis perspectivas do negócio:
+
+| Análise | Pergunta investigada | Visualização |
+| --- | --- | --- |
+| **Demanda** | Quais meses concentram mais participações? | [Gráfico de sazonalidade](visualizacoes/demanda_sazonalidade.png) |
+| **Cancelamentos** | Quais roteiros apresentam maiores taxas observadas? | [Taxas e intervalos](visualizacoes/cancelamentos.png) |
+| **Satisfação** | Como variam NPS e notas de experiência? | [Satisfação e NPS](visualizacoes/satisfacao_nps.png) |
+| **Hospedagem** | Há falta de vagas em datas e etapas específicas? | [Ocupação e capacidade](visualizacoes/ocupacao_planejamento.png) |
+| **Financeiro** | Qual a relação entre receita, custos e contribuição? | [Resultado por roteiro](visualizacoes/financeiro_roteiros.png) |
+| **Previsão** | Como estimar demanda e avaliar o erro da projeção? | [Demanda e previsão](visualizacoes/previsao_demanda.png) |
+
+**Notebook com análise e interpretação:** [notebooks/analise_exploratoria.ipynb](notebooks/analise_exploratoria.ipynb)
+
+![Satisfação e NPS](visualizacoes/satisfacao_nps.png)
+
+## 7. Resultados: principais descobertas
+
+Os resultados abaixo correspondem ao **histórico da base principal**, de janeiro/2024 a outubro/2026, considerando os roteiros da simulação completa, inclusive Assis e Espanha cultural quando aplicável.
 
 | Indicador | Resultado calculado |
 | --- | ---: |
-| Reservas / confirmadas | 144 / 128 |
+| Reservas históricas / confirmadas | 144 / 128 |
 | Participações confirmadas / clientes únicos | 188 / 92 |
-| NPS / respostas | 43,06 pontos / 72 |
-| Cancelamentos | 16/144 = 11,11% |
-| Receita contratada | R$ 1.618.600,00 |
-| Custos / contribuição gerencial | R$ 1.161.182,00 / R$ 457.418,00 |
-| Ocupação de hospedagem histórica | 738/1.723 = 42,83% em vagas-noite |
+| Taxa de cancelamento | 16/144 = **11,11%** |
+| NPS geral | **43,06 pontos**, com 72 respostas |
+| Receita contratada | **R$ 1.618.600,00** |
+| Custos | **R$ 1.161.182,00** |
+| Contribuição gerencial | **R$ 457.418,00** |
+| Ocupação histórica | 738/1.723 = **42,83%** em vagas-noite |
 
-A base completa tem 164 reservas; as 20 restantes são futuras em relação ao histórico. Receita é contada uma vez por reserva, e contribuição não é lucro líquido.
+A base completa possui 164 reservas, incluindo 20 fora do período histórico. **Contribuição gerencial não é lucro líquido** e ocupação em vagas-noite não é a mesma medida que viajantes por mês.
 
-- **Demanda:** junho tem média de 10,67 participações, com três repetições anuais. Antecipar investigação e negociação de capacidade; a série curta não comprova sazonalidade comercial.
-- **Experiência:** Santiago a pé tem NPS 25 em 12 respostas e nota média de hospedagem 7,08/10. Revisar comentários e etapas; a amostra não prova causalidade.
-- **Cancelamentos:** Assis apresenta 3/14 = 21,43%, Wilson de referência 7,57%–47,59%. Investigar motivos e canais; o intervalo amplo limita comparações.
-- **Capacidade futura:** de 07/11 a 31/12/2026, há quatro vagas-noite em falta em slots específicos, apesar da ocupação agregada de 43,86%. Folgas de outras datas/etapas não compensam os déficits.
-- **Previsão:** Ridge selecionado na validação temporal H=3, MAE 2,5817; no teste final, MAE 2,5567 viajantes/mês. A média ponderada teve menor MAE final, sem reseleção após observar o teste.
+### Insights obtidos
 
-Os cálculos, decisões sugeridas e limitações estão em [resultados](docs/resultados.md) e no [notebook executado](notebooks/analise_exploratoria.ipynb). Não há inferência causal ou alegação de ganho real.
+- **Demanda:** junho teve a maior média observada, **10,67 viajantes por mês** em três anos. Isso sugere verificar a capacidade antes dos períodos de maior volume; três repetições não comprovam sazonalidade geral.
+- **Cancelamentos:** Assis registrou **3 cancelamentos em 14 reservas (21,43%)**. O intervalo Wilson aproximado de 95% vai de **7,57% a 47,59%**, portanto a comparação entre roteiros exige cautela.
+- **Satisfação:** o roteiro Santiago a pé apresentou **NPS de 25 pontos (12 respostas)** e média de hospedagem de **7,08/10**, sinalizando um ponto para investigar em avaliações e comentários.
+- **Capacidade:** no planejamento de 07/11 a 31/12/2026, havia **quatro vagas-noite em déficit** em slots específicos, mesmo com ocupação agregada de **43,86%**.
+- **Previsão:** o modelo Ridge temporal foi selecionado na validação; no teste final apresentou **MAE de 2,5567 viajantes/mês**. Essa medida descreve erro no recorte de avaliação, não garantia de desempenho futuro.
 
-## Reprodução
+Mais detalhes, fórmulas e limites estão em [docs/resultados.md](docs/resultados.md).
 
-Requisitos: **Python 3.12**, **Node.js 22.12+** e npm. No PowerShell, dentro deste diretório:
+## 8. Conclusão do projeto
+
+O portfólio demonstra como transformar uma base estruturada em indicadores, visualizações e recomendações rastreáveis. Os resultados apontam três prioridades para o cenário da Tour4Friends: **planejar capacidade de acordo com a demanda observada, investigar diferenças na experiência dos viajantes e monitorar cancelamentos sem confundir taxas observadas com causas comprovadas**.
+
+O principal aprendizado foi conectar o problema de negócio à qualidade dos dados, às regras de cálculo, à interpretação estatística e à apresentação dos resultados. As conclusões são analíticas e não representam benefícios comerciais medidos.
+
+## 9. Estrutura do repositório no GitHub
+
+A imagem de referência da disciplina apresenta uma **estrutura de exemplo**, com README, CSV, notebook, gráfico e PDF. O T4F contém esses mesmos tipos de entrega, organizados em pastas para facilitar sua manutenção:
+
+~~~text
+portfolio-t4f-data-analytics/
+├── README.md                         ← apresentação do projeto
+├── data/
+│   ├── raw/t4f-demo.json             ← base de origem
+│   └── processed/                    ← CSVs e JSONs após executar
+├── notebooks/
+│   └── analise_exploratoria.ipynb    ← análise em notebook
+├── visualizacoes/
+│   └── demanda_sazonalidade.png      ← gráfico do projeto (+ outros cinco)
+├── docs/
+│   ├── problema.md                   ← contexto e problema
+│   ├── metodologias.md               ← CRISP-DM, KDD, Scrum, Kanban, DataOps
+│   ├── pipeline.md                   ← tratamento e transformações
+│   └── resultados.md                 ← descobertas e interpretação
+├── output/pdf/
+│   └── portfolio-t4f-performance.pdf ← portfólio em PDF
+├── src/                               ← pipeline e análises
+├── tests/                             ← testes e validações
+├── app.py                             ← dashboard local em Streamlit
+└── portfolio/post-linkedin.md        ← texto de divulgação
+~~~
+
+**Equivalências com o modelo do professor:** o papel de **dados.csv** é cumprido pela base versionada em JSON e pelos CSVs gerados; **analise.ipynb** está em notebooks/; **dashboard.png** corresponde aos gráficos em visualizacoes/ e ao painel Streamlit; **docs/portfolio.pdf** corresponde ao PDF em output/pdf/. Os nomes e locais são diferentes, mas os artefatos estão identificados acima.
+
+## 10. Como executar
+
+**Pré-requisitos:** Python 3.12, Node.js 22.12+ e npm. Em um terminal PowerShell, na raiz do repositório:
 
 ~~~powershell
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 npm.cmd ci
+
+# Validar as fontes e gerar os resultados
 .\.venv\Scripts\python.exe -m src.ingestao
 .\.venv\Scripts\python.exe -m src.gerar_demo
 .\.venv\Scripts\python.exe -m src.executar
@@ -50,96 +182,46 @@ npm.cmd ci
 .\.venv\Scripts\python.exe -m src.resultados
 .\.venv\Scripts\python.exe -m src.notebook
 .\.venv\Scripts\python.exe -m src.relatorio
+
+# Conferir os testes
 npm.cmd run typecheck
 npm.cmd test
 .\.venv\Scripts\python.exe -m unittest discover -s tests -v
 ~~~
 
-Em Linux/macOS, use `.venv/bin/python` e `npm`. O fluxo foi executado em Windows/Python 3.12; outras plataformas não foram homologadas. `src.gerar_demo` reproduz o gerador original em pasta temporária e confere igualdade byte a byte, sem tocar no repositório original. `src.ingestao` verifica as fontes incorporadas; não depende de downloads. A instalação inicial das dependências requer acesso aos registries. O lock npm fixa a árvore Node; as dependências Python diretas estão fixadas.
-
-~~~mermaid
-flowchart LR
-    A[Snapshot sintético e hashes] --> B[Schema e relações originais]
-    B --> C[Indicadores e modelos TypeScript]
-    C --> D[Reconciliação Python]
-    D --> E[CSV e JSON]
-    E --> F[Gráficos e notebook]
-    E --> G[Streamlit]
-    F --> H[PDF e narrativa profissional]
-~~~
-
-O núcleo de validação, KPIs, estatística e previsão foi incorporado **sem alterações**, a partir do commit integrado [0216dce](https://github.com/Thiago-code-lab/Dashboards-Tour4Friends/tree/0216dce5f67b83fbb0ba84346a7742dcb4f5ce23), em `vendor/t4f/`. [Manifesto](docs/fontes.json) registra SHA-256 e origem de cada arquivo. A seleção evita reconstruir regras já testadas e não inclui React, backend, documentos comerciais ou credenciais.
-
-## Exploração local
+Para explorar os resultados no dashboard local:
 
 ~~~powershell
 .\.venv\Scripts\python.exe -m streamlit run app.py --server.address 127.0.0.1
 ~~~
 
-Abra http://127.0.0.1:8501. O leitor apresenta o histórico por roteiro e exporta o recorte. A aba de planejamento tem escopo global explícito. O cache depende da versão do arquivo; modelos e pipeline não executam em interações.
+Abra **http://127.0.0.1:8501**. O painel é executado localmente; o GitHub hospeda seu código e não publica automaticamente a aplicação Streamlit. No Linux/macOS, o executável Python do ambiente é .venv/bin/python. A instalação inicial de dependências exige acesso à internet.
 
-A CLI CSV genérica foi preservada: `python -m src.pipeline --help`.
+## 11. Relatório, documentação e referências
 
-## Análises e entregas
+- **[Portfólio final em PDF](output/pdf/portfolio-t4f-performance.pdf)**
+- [Notebook de análise](notebooks/analise_exploratoria.ipynb)
+- [Problema de negócio](docs/problema.md)
+- [Metodologias e evidências](docs/metodologias.md)
+- [Dicionário de dados e proveniência](docs/fontes-e-dicionario.md)
+- [Resultados, gráficos e conclusões](docs/resultados.md)
+- [Verificação e testes](docs/verificacao.md)
+- [Documentação acadêmica do projeto](docs/referencias/projeto-big-data-t4f-publico.pdf)
+- [Texto para divulgação no LinkedIn](portfolio/post-linkedin.md)
 
-![Experiência e NPS](visualizacoes/satisfacao_nps.png)
+A documentação identifica duas simulações separadas, seus recortes e suas limitações. Não foram declarados modelos, painéis Power BI, infraestrutura ou processos que não tenham evidência de implementação.
 
-![Taxas de cancelamento e intervalos](visualizacoes/cancelamentos.png)
+## 12. Integrantes e créditos
 
-![Ocupação e déficits no planejamento](visualizacoes/ocupacao_planejamento.png)
+**Projeto Integrador V — Fatec Ipiranga**
 
-![Receita, custos e contribuição](visualizacoes/financeiro_roteiros.png)
+- Daniel Fernando dos Santos
+- Lucas Antonio Evangelista dos Santos
+- Pablo Roberto da Silva Costa
+- Thiago Cardoso Davi
+- William Nunes Vilany
 
-![Demanda e previsão](visualizacoes/previsao_demanda.png)
+**Organização do portfólio:** Thiago Cardoso Davi  
+**Professor da disciplina:** Samuel Henrique
 
-- [Relatório de portfólio em PDF](output/pdf/portfolio-t4f-performance.pdf).
-- [Notebook executado](notebooks/analise_exploratoria.ipynb), com tabelas, contratos e interpretação.
-- [LinkedIn preparado para revisão](portfolio/post-linkedin.md), sem publicação.
-- [Panorama, CRISP-DM, KDD, Scrum, Kanban, DataOps, planejamento e Canvas](docs/metodologias.md), com evidências e limites.
-- [Validação executada](docs/verificacao.md), [requisitos acadêmicos](docs/requisitos.md) e [planejamento](docs/planejamento.md).
-
-## Documentação acadêmica e bases anexadas
-
-- [Documento acadêmico do projeto, 30 páginas](docs/referencias/projeto-big-data-t4f-publico.pdf): cópia pública com matrículas ocultadas; os demais textos e figuras foram preservados.
-- [Pacote de bases fornecido pelo autor](anexos/bases_de_dados_T4F.zip): ZIP original, byte a byte, com nove CSVs, planilha XLSX de dez abas, gerador e LEIA-ME.
-- [Leitura e cotejo do documento](docs/leitura-documentacao.md), com páginas e distinção entre proposta, relato acadêmico e implementação executável.
-- [Dicionário e qualidade da base complementar](docs/bases-suplementares.md), [CSVs consultáveis](data/suplementar/README.md) e [manifesto dos anexos](docs/anexos-manifesto.json).
-
-**Duas simulações separadas:** a demonstração principal usa seed 42, BRL e Premium/Conforto/Alternativa. O ZIP usa seed 2026, reservas em EUR e Econômico/Standard/Superior; seu financeiro em BRL e sua ocupação são independentes de reservas. Os indicadores não são combinados.
-
-A validação complementar reproduz o caso de Portomarín (14/11/2026): três vagas-noite para capacidade de duas, ocupação de 150%. O NPS 72 das 300 respostas foi imposto no gerador; sete respostas ocorrem depois de 16/11/2026. No corte, são 293 respostas e NPS 72,70 pontos. As tabelas externas do pacote são referências fornecidas de origem secundária ou calendário calculado, sem certificação primária nesta entrega.
-
-O documento acadêmico descreve modelos e infraestrutura que não estão comprovados neste código. Não se declara execução de Random Forest, Regressão Logística, Power BI, quatro sprints ou automação semanal com base apenas no texto do PDF. O cotejo explicita também que o modelo genérico de repositório da página 28 não foi adotado.
-
-## Origem e estado do projeto integrador
-
-O original tem dez módulos de dashboards, demonstração React/TypeScript e laboratório FastAPI/PostgreSQL. Este repositório apresenta análise e processo; não duplica a plataforma.
-
-Consulta de 17/11/2026: PRs #1–#3 integrados; #4–#8 abertos, sendo #6–#8 em rascunho. Os módulos comerciais/documentais e mapas pendentes não integram os resultados deste portfólio. [Arquitetura, módulos, testes e estado das branches](docs/projeto-original.md), [evidência dos PRs](docs/estado-original.json). A consulta HTTP da [demonstração original](https://thiago-code-lab.github.io/Dashboards-Tour4Friends/) retornou 200 e snapshot com o mesmo hash; isso não equivale a repetir toda a suíte pública.
-
-## Estrutura
-
-~~~text
-app.py                     Leitor Streamlit dos resultados
-src/                       Diagnóstico CSV e orquestração/entregas Python
-scripts/exportar-t4f.ts     Adaptador do núcleo analítico original
-vendor/t4f/                18 arquivos originais, com atribuição e hashes
-data/raw/t4f-demo.json      Snapshot sintético versionado
-data/processed/            Sete CSVs e JSONs analíticos locais regeneráveis
-data/suplementar/           Nove CSVs anexados, preservados e validados à parte
-anexos/                    ZIP original fornecido pelo autor
-tests/                     Carteira manual, contratos e integração
-notebooks/                 Análise executada
-visualizacoes/             Seis gráficos calculados
-docs/                      Problema, fontes, pipeline, métodos e evidências
-output/pdf/                Relatório do portfólio
-portfolio/                 Narrativa para LinkedIn
-~~~
-
-## Limitações e créditos
-
-Série de 34 meses, poucos respondentes por grupo e dados inteiramente sintéticos. Wilson e bootstrap têm limitações de independência e seleção; faixas preditivas são exploratórias, sem cobertura garantida. A série usa status atuais das reservas, sem snapshots históricos de vendas. Não há conciliação contábil, previsão operacional validada ou reconciliação hierárquica. Vagas-noite e viajantes/mês são unidades distintas.
-
-Projeto Integrador V: **Daniel Fernando dos Santos, Lucas Antonio Evangelista dos Santos, Pablo Roberto da Silva Costa, Thiago Cardoso Davi e William Nunes Vilany**. Organização deste portfólio: Thiago Cardoso Davi.
-
-Publicação autorizada em **[portfolio-t4f-data-analytics](https://github.com/Thiago-code-lab/portfolio-t4f-data-analytics)**, branch `main`. O histórico público começa com uma raiz exclusiva do T4F; o histórico de trabalho anterior permanece em backup e branch locais. [Checklist de publicação](docs/checklist-publicacao.md). O Streamlit é uma aplicação local: a publicação no GitHub não o hospeda. O texto de LinkedIn permanece preparado, sem envio automático.
+O portfólio é uma entrega de análise e documentação; o desenvolvimento completo dos dashboards está no [repositório T4F Performance](https://github.com/Thiago-code-lab/Dashboards-Tour4Friends).
